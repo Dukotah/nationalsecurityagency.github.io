@@ -24,6 +24,37 @@ Useful page edit information for maintainers and contributors:
   [nationalsecurityagency](https://github.com/nationalsecurityagency) GitHub
   orgs.
 
+## How this fork differs from code.nsa.gov
+
+This is an unofficial fork. code.nsa.gov is built from the upstream `main`
+branch; nothing here is published by NSA.
+
+* `_data/repos.json` and `code.json` are regenerated from the live
+  [nationalsecurityagency](https://github.com/nationalsecurityagency) and
+  [NSAcyber](https://github.com/nsacyber) orgs instead of the 2021 snapshot.
+  Entries for repositories outside those orgs are kept as written, with only
+  their star and fork counts refreshed.
+* Archived repositories stay listed but carry `"archived": true` in
+  `_data/repos.json` (shown as an "Archived" label on the card) and
+  `"status": "Archival"` in `code.json`.
+* External links that return 404 are added to `_data/ignore.yml`.
+* `scripts/audit_listing.py` writes `AUDIT.md`, a report of missing repos,
+  dead links, archived repos and stale statistics.
+* `scripts/regen_listing.py` rewrites the data files. Both scripts use only
+  the Python standard library and read a token from `GH_TOKEN`,
+  `GITHUB_TOKEN` or `gh auth token`:
+
+  ```sh
+  python3 scripts/regen_listing.py --dry-run
+  python3 scripts/regen_listing.py
+  python3 scripts/audit_listing.py
+  bundle exec jekyll build
+  ```
+
+* `.github/workflows/refresh-listing.yml` runs the regenerator monthly (or on
+  demand) and opens a pull request in the fork. It does not run in the
+  upstream repository.
+
 [bs]: https://github.com/nationalsecurityagency/nationalsecurityagency.github.io/workflows/CI/badge.svg
 [bl]: https://github.com/nationalsecurityagency/nationalsecurityagency.github.io/actions
 [li]: http://img.shields.io/badge/license-Apache%202.0-blue.svg
