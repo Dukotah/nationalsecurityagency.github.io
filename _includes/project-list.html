@@ -24,6 +24,9 @@
           {% if item.homepage != "" and item.homepage != nil %}
           <a class="card-link" href="{{item.homepage}}" title="Main Page" target="_blank"> <span class="fas fa-globe-americas"></span></a>
           {% endif %}
+          {% if item.archived %}
+          <span class="card-link" title="Archived: read-only on GitHub, no longer maintained here"> <span class="fas fa-archive"></span> Archived</span>
+          {% endif %}
         </div>
       </div>
     {% endunless %}
