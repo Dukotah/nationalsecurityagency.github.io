@@ -26,13 +26,13 @@
         "name": "NSA Technology Transfer Program",
         "phone": "1-866-680-4539"
       },
-      "status": "Production",
+      "status": "Archival",
       "vcs": "git",
       "homepageURL": "https://simp-project.com",
       "downloadURL": "https://github.com/NationalSecurityAgency/SIMP/archive/master.zip",
       "date": {
         "created": "2015-04-28",
-        "metadataLastUpdated": "2021-10-18",
+        "metadataLastUpdated": "2026-11-07",
         "lastModified": "2019-11-05"
       },
       "languages": [
@@ -57,7 +57,8 @@
         "accumulo",
         "hacktoberfest",
         "series-database",
-        "time-series"
+        "time-series",
+        "timeseries"
       ],
       "contact": {
         "email": "tech_transfer@nsa.gov",
@@ -71,26 +72,24 @@
       "downloadURL": "https://github.com/NationalSecurityAgency/timely/archive/master.zip",
       "date": {
         "created": "2016-04-12",
-        "metadataLastUpdated": "2021-09-23",
-        "lastModified": "2021-08-23"
+        "metadataLastUpdated": "2026-10-22",
+        "lastModified": "2026-10-19"
       },
       "languages": [
+        "Java",
         "TypeScript",
+        "Python",
         "Go",
         "Shell",
-        "SCSS",
-        "Dockerfile",
         "CSS",
-        "Java",
-        "Python",
-        "HTML",
-        "JavaScript"
+        "JavaScript",
+        "Dockerfile"
       ]
     },
     {
       "name": "qgis-latlontools-plugin",
       "repositoryURL": "https://github.com/NationalSecurityAgency/qgis-latlontools-plugin",
-      "description": "QGIS tools to capture and zoom to coordinates using decimal, DMS, WKT, GeoJSON, MGRS, UTM, UPS, GEOREF, and Plus Codes notation. Provides external map support, MGRS & Plus Codes conversion and point digitizing tools.",
+      "description": "QGIS tools to capture and zoom to coordinates using decimal, DMS, WKT, GeoJSON, MGRS, UTM, UPS, GEOREF, ECEF, H3, and Plus Codes notation. Provides external map support, MGRS & Plus Codes conversion and point digitizing tools.",
       "permissions": {
         "licenses": [
           {
@@ -104,10 +103,12 @@
       "tags": [
         "capture",
         "dms",
+        "ecef",
         "epsg",
         "geohash",
         "geojson",
         "georef",
+        "h3",
         "latitude",
         "longitude",
         "mgrs",
@@ -125,19 +126,20 @@
         "name": "NSA Technology Transfer Program",
         "phone": "1-866-680-4539"
       },
-      "status": "Production",
+      "status": "Archival",
       "vcs": "git",
       "homepageURL": "https://github.com/NationalSecurityAgency/qgis-latlontools-plugin",
       "downloadURL": "https://github.com/NationalSecurityAgency/qgis-latlontools-plugin/archive/master.zip",
       "date": {
         "created": "2016-04-14",
-        "metadataLastUpdated": "2021-10-15",
-        "lastModified": "2021-10-15"
+        "metadataLastUpdated": "2026-11-16",
+        "lastModified": "2024-06-10"
       },
       "languages": [
         "Python",
         "HTML",
-        "Makefile"
+        "Makefile",
+        "Batchfile"
       ]
     },
     {
@@ -154,26 +156,35 @@
         "usageType": "openSource"
       },
       "laborHours": 1,
-      "tags": [],
+      "tags": [
+        "fuzzy",
+        "fuzzy-search",
+        "levenshtein",
+        "qgis",
+        "search",
+        "soundex"
+      ],
       "contact": {
         "email": "tech_transfer@nsa.gov",
         "URL": "https://www.nsa.gov/Research/Technology-Transfer-Program/",
         "name": "NSA Technology Transfer Program",
         "phone": "1-866-680-4539"
       },
-      "status": "Production",
+      "status": "Archival",
       "vcs": "git",
       "homepageURL": "https://github.com/NationalSecurityAgency/qgis-searchlayers-plugin",
       "downloadURL": "https://github.com/NationalSecurityAgency/qgis-searchlayers-plugin/archive/master.zip",
       "date": {
         "created": "2016-06-01",
-        "metadataLastUpdated": "2021-10-07",
-        "lastModified": "2021-10-07"
+        "metadataLastUpdated": "2026-10-18",
+        "lastModified": "2024-06-10"
       },
       "languages": [
         "Python",
         "HTML",
-        "Makefile"
+        "Makefile",
+        "QMake",
+        "Batchfile"
       ]
     },
     {
@@ -190,28 +201,41 @@
         "usageType": "openSource"
       },
       "laborHours": 1,
-      "tags": [],
+      "tags": [
+        "arc",
+        "azimuth",
+        "bearing",
+        "decimate",
+        "donut",
+        "ellipse",
+        "geodesic",
+        "pie",
+        "polyfoil",
+        "polygon",
+        "qgis",
+        "rose",
+        "xytoline"
+      ],
       "contact": {
         "email": "tech_transfer@nsa.gov",
         "URL": "https://www.nsa.gov/Research/Technology-Transfer-Program/",
         "name": "NSA Technology Transfer Program",
         "phone": "1-866-680-4539"
       },
-      "status": "Production",
+      "status": "Archival",
       "vcs": "git",
       "homepageURL": "https://github.com/NationalSecurityAgency/qgis-shapetools-plugin",
       "downloadURL": "https://github.com/NationalSecurityAgency/qgis-shapetools-plugin/archive/master.zip",
       "date": {
         "created": "2016-06-03",
-        "metadataLastUpdated": "2021-10-15",
-        "lastModified": "2021-09-13"
+        "metadataLastUpdated": "2026-11-04",
+        "lastModified": "2024-06-10"
       },
       "languages": [
+        "Python",
         "HTML",
         "Makefile",
-        "QMake",
-        "Batchfile",
-        "Python"
+        "Batchfile"
       ]
     },
     {
@@ -235,14 +259,14 @@
         "name": "NSA Technology Transfer Program",
         "phone": "1-866-680-4539"
       },
-      "status": "Production",
+      "status": "Archival",
       "vcs": "git",
       "homepageURL": "https://github.com/NationalSecurityAgency/qgis-d3datavis-plugin",
       "downloadURL": "https://github.com/NationalSecurityAgency/qgis-d3datavis-plugin/archive/master.zip",
       "date": {
         "created": "2016-07-01",
-        "metadataLastUpdated": "2021-09-18",
-        "lastModified": "2021-07-12"
+        "metadataLastUpdated": "2026-10-18",
+        "lastModified": "2024-06-10"
       },
       "languages": [
         "Python",
@@ -278,15 +302,14 @@
       "downloadURL": "https://github.com/NationalSecurityAgency/lemongraph/archive/master.zip",
       "date": {
         "created": "2016-07-25",
-        "metadataLastUpdated": "2021-10-18",
-        "lastModified": "2021-10-20"
+        "metadataLastUpdated": "2026-11-16",
+        "lastModified": "2026-04-30"
       },
       "languages": [
         "Python",
         "C",
         "HTML",
         "Makefile",
-        "C++",
         "Shell"
       ]
     },
@@ -317,16 +340,16 @@
       "downloadURL": "https://github.com/NationalSecurityAgency/lemongrenade/archive/master.zip",
       "date": {
         "created": "2016-07-25",
-        "metadataLastUpdated": "2021-09-17",
-        "lastModified": "2021-06-23"
+        "metadataLastUpdated": "2026-11-11",
+        "lastModified": "2023-06-13"
       },
       "languages": [
+        "Java",
         "JavaScript",
         "CSS",
         "Python",
         "HTML",
-        "Shell",
-        "Java"
+        "Shell"
       ]
     },
     {
@@ -350,13 +373,13 @@
         "name": "NSA Technology Transfer Program",
         "phone": "1-866-680-4539"
       },
-      "status": "Production",
+      "status": "Archival",
       "vcs": "git",
       "homepageURL": "https://github.com/NationalSecurityAgency/DCP",
       "downloadURL": "https://github.com/NationalSecurityAgency/DCP/archive/master.zip",
       "date": {
         "created": "2016-08-05",
-        "metadataLastUpdated": "2021-10-03",
+        "metadataLastUpdated": "2026-10-18",
         "lastModified": "2019-06-06"
       },
       "languages": [
@@ -388,14 +411,14 @@
         "name": "NSA Technology Transfer Program",
         "phone": "1-866-680-4539"
       },
-      "status": "Production",
+      "status": "Archival",
       "vcs": "git",
       "homepageURL": "https://github.com/NationalSecurityAgency/qgis-bulk-nominatim",
       "downloadURL": "https://github.com/NationalSecurityAgency/qgis-bulk-nominatim/archive/master.zip",
       "date": {
         "created": "2017-01-20",
-        "metadataLastUpdated": "2021-09-06",
-        "lastModified": "2021-04-15"
+        "metadataLastUpdated": "2026-03-11",
+        "lastModified": "2024-04-09"
       },
       "languages": [
         "Python",
@@ -419,6 +442,7 @@
       "laborHours": 1,
       "tags": [
         "accumulo",
+        "java",
         "proxy",
         "websocket"
       ],
@@ -434,8 +458,8 @@
       "downloadURL": "https://github.com/NationalSecurityAgency/qonduit/archive/master.zip",
       "date": {
         "created": "2017-04-07",
-        "metadataLastUpdated": "2021-06-04",
-        "lastModified": "2021-08-23"
+        "metadataLastUpdated": "2026-10-11",
+        "lastModified": "2026-11-02"
       },
       "languages": [
         "Java",
@@ -459,7 +483,6 @@
       "tags": [
         "accumulo",
         "bigdata",
-        "hacktoberfest",
         "java"
       ],
       "contact": {
@@ -471,21 +494,23 @@
       "status": "Production",
       "vcs": "git",
       "homepageURL": "https://code.nsa.gov/datawave",
-      "downloadURL": "https://github.com/NationalSecurityAgency/datawave/archive/master.zip",
+      "downloadURL": "https://github.com/NationalSecurityAgency/datawave/archive/integration.zip",
       "date": {
         "created": "2018-01-10",
-        "metadataLastUpdated": "2021-10-20",
-        "lastModified": "2021-10-20"
+        "metadataLastUpdated": "2026-11-16",
+        "lastModified": "2026-11-17"
       },
       "languages": [
-        "Dockerfile",
-        "Python",
-        "CSS",
-        "XSLT",
         "Java",
         "Shell",
         "HTML",
-        "JavaScript"
+        "JavaScript",
+        "Vue",
+        "Dockerfile",
+        "TypeScript",
+        "CSS",
+        "Python",
+        "XSLT"
       ]
     },
     {
@@ -515,14 +540,14 @@
         "name": "NSA Technology Transfer Program",
         "phone": "1-866-680-4539"
       },
-      "status": "Production",
+      "status": "Archival",
       "vcs": "git",
       "homepageURL": "https://github.com/NationalSecurityAgency/qgis-kmltools-plugin",
       "downloadURL": "https://github.com/NationalSecurityAgency/qgis-kmltools-plugin/archive/master.zip",
       "date": {
         "created": "2018-03-16",
-        "metadataLastUpdated": "2021-09-22",
-        "lastModified": "2021-07-16"
+        "metadataLastUpdated": "2026-08-04",
+        "lastModified": "2024-06-10"
       },
       "languages": [
         "Python",
@@ -561,13 +586,11 @@
       "downloadURL": "https://github.com/NationalSecurityAgency/fractalrabbit/archive/master.zip",
       "date": {
         "created": "2018-04-04",
-        "metadataLastUpdated": "2021-10-19",
-        "lastModified": "2021-06-11"
+        "metadataLastUpdated": "2026-11-08",
+        "lastModified": "2026-11-03"
       },
       "languages": [
-        "Mathematica",
-        "Java",
-        "Python"
+        "Java"
       ]
     },
     {
@@ -603,7 +626,7 @@
       "downloadURL": "https://github.com/NationalSecurityAgency/datawave-muchos/archive/master.zip",
       "date": {
         "created": "2018-05-11",
-        "metadataLastUpdated": "2021-06-14",
+        "metadataLastUpdated": "2026-09-17",
         "lastModified": "2019-12-12"
       },
       "languages": [
@@ -617,7 +640,7 @@
       "permissions": {
         "licenses": [
           {
-            "URL": "https://github.com/NationalSecurityAgency/emissary/blob/master/LICENSE",
+            "URL": "https://github.com/NationalSecurityAgency/emissary/blob/main/LICENSE",
             "name": "Apache License 2.0"
           }
         ],
@@ -634,20 +657,21 @@
       "status": "Production",
       "vcs": "git",
       "homepageURL": "https://github.com/NationalSecurityAgency/emissary",
-      "downloadURL": "https://github.com/NationalSecurityAgency/emissary/archive/master.zip",
+      "downloadURL": "https://github.com/NationalSecurityAgency/emissary/archive/main.zip",
       "date": {
         "created": "2018-06-01",
-        "metadataLastUpdated": "2021-09-29",
-        "lastModified": "2021-10-14"
+        "metadataLastUpdated": "2026-11-12",
+        "lastModified": "2026-11-17"
       },
       "languages": [
         "Java",
         "Shell",
-        "HTML",
         "Mustache",
-        "JavaScript",
+        "Dockerfile",
         "CSS",
-        "Dockerfile"
+        "JavaScript",
+        "Go Template",
+        "HTML"
       ]
     },
     {
@@ -665,7 +689,8 @@
       },
       "laborHours": 1,
       "tags": [
-        "hacktoberfest"
+        "hacktoberfest",
+        "jekyll"
       ],
       "contact": {
         "email": "tech_transfer@nsa.gov",
@@ -676,11 +701,11 @@
       "status": "Production",
       "vcs": "git",
       "homepageURL": "https://code.nsa.gov",
-      "downloadURL": "https://github.com/NationalSecurityAgency/nationalsecurityagency.github.io/archive/master.zip",
+      "downloadURL": "https://github.com/NationalSecurityAgency/nationalsecurityagency.github.io/archive/main.zip",
       "date": {
         "created": "2018-06-22",
-        "metadataLastUpdated": "2021-10-20",
-        "lastModified": "2021-10-20"
+        "metadataLastUpdated": "2026-11-15",
+        "lastModified": "2026-11-13"
       },
       "languages": [
         "HTML",
@@ -715,7 +740,7 @@
       "downloadURL": "https://github.com/NationalSecurityAgency/enigma-simulator/archive/master.zip",
       "date": {
         "created": "2018-08-01",
-        "metadataLastUpdated": "2021-10-14",
+        "metadataLastUpdated": "2026-11-16",
         "lastModified": "2020-08-14"
       },
       "languages": [
@@ -744,14 +769,14 @@
         "name": "NSA Technology Transfer Program",
         "phone": "1-866-680-4539"
       },
-      "status": "Production",
+      "status": "Archival",
       "vcs": "git",
       "homepageURL": "https://github.com/NationalSecurityAgency/MADCert",
-      "downloadURL": "https://github.com/NationalSecurityAgency/MADCert/archive/master.zip",
+      "downloadURL": "https://github.com/NationalSecurityAgency/MADCert/archive/main.zip",
       "date": {
         "created": "2018-08-17",
-        "metadataLastUpdated": "2021-10-12",
-        "lastModified": "2021-07-12"
+        "metadataLastUpdated": "2026-11-04",
+        "lastModified": "2025-02-03"
       },
       "languages": [
         "JavaScript"
@@ -784,35 +809,40 @@
       },
       "status": "Production",
       "vcs": "git",
-      "homepageURL": "https://www.nsa.gov/ghidra",
+      "homepageURL": "https://github.com/NationalSecurityAgency/ghidra",
       "downloadURL": "https://github.com/NationalSecurityAgency/ghidra/archive/master.zip",
       "date": {
         "created": "2019-03-01",
-        "metadataLastUpdated": "2021-10-20",
-        "lastModified": "2021-10-20"
+        "metadataLastUpdated": "2026-11-17",
+        "lastModified": "2026-11-17"
       },
       "languages": [
-        "PHP",
-        "Yacc",
-        "Assembly",
-        "Lex",
-        "XSLT",
-        "Haskell",
-        "Batchfile",
-        "C++",
-        "Python",
-        "Shell",
-        "GAP",
-        "Hack",
-        "Xtend",
-        "CSS",
-        "CMake",
-        "Makefile",
         "Java",
+        "C++",
         "HTML",
         "C",
+        "Python",
+        "Shell",
+        "Yacc",
+        "Xtend",
+        "GAP",
+        "PowerShell",
+        "Assembly",
         "TeX",
-        "Objective-C"
+        "Batchfile",
+        "Hack",
+        "Objective-C",
+        "Rust",
+        "Lex",
+        "XSLT",
+        "CSS",
+        "Makefile",
+        "GDB",
+        "Dockerfile",
+        "Haskell",
+        "Lua",
+        "Linker Script",
+        "Pawn"
       ]
     },
     {
@@ -822,7 +852,7 @@
       "permissions": {
         "licenses": [
           {
-            "URL": "https://github.com/NationalSecurityAgency/ghidra-data/blob/master/LICENSE",
+            "URL": "https://github.com/NationalSecurityAgency/ghidra-data/blob/main/LICENSE",
             "name": "Apache License 2.0"
           }
         ],
@@ -839,11 +869,11 @@
       "status": "Production",
       "vcs": "git",
       "homepageURL": "https://www.nsa.gov/ghidra",
-      "downloadURL": "https://github.com/NationalSecurityAgency/ghidra-data/archive/master.zip",
+      "downloadURL": "https://github.com/NationalSecurityAgency/ghidra-data/archive/main.zip",
       "date": {
         "created": "2019-04-02",
-        "metadataLastUpdated": "2021-10-06",
-        "lastModified": "2020-11-16"
+        "metadataLastUpdated": "2026-11-15",
+        "lastModified": "2026-11-03"
       },
       "languages": []
     },
@@ -854,7 +884,7 @@
       "permissions": {
         "licenses": [
           {
-            "URL": "https://github.com/NationalSecurityAgency/datawave-in-memory-accumulo/blob/master/LICENSE",
+            "URL": "https://github.com/NationalSecurityAgency/datawave-in-memory-accumulo/blob/main/LICENSE",
             "name": "Apache License 2.0"
           }
         ],
@@ -873,11 +903,11 @@
       "status": "Production",
       "vcs": "git",
       "homepageURL": "https://github.com/NationalSecurityAgency/datawave-in-memory-accumulo",
-      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-in-memory-accumulo/archive/master.zip",
+      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-in-memory-accumulo/archive/main.zip",
       "date": {
         "created": "2019-10-08",
-        "metadataLastUpdated": "2021-06-14",
-        "lastModified": "2020-11-18"
+        "metadataLastUpdated": "2026-10-11",
+        "lastModified": "2026-01-07"
       },
       "languages": [
         "Java"
@@ -890,7 +920,7 @@
       "permissions": {
         "licenses": [
           {
-            "URL": "https://github.com/NationalSecurityAgency/datawave-accumulo-service/blob/master/LICENSE",
+            "URL": "https://github.com/NationalSecurityAgency/datawave-accumulo-service/blob/main/LICENSE",
             "name": "Apache License 2.0"
           }
         ],
@@ -909,15 +939,15 @@
       "status": "Production",
       "vcs": "git",
       "homepageURL": "https://github.com/NationalSecurityAgency/datawave-accumulo-service",
-      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-accumulo-service/archive/master.zip",
+      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-accumulo-service/archive/main.zip",
       "date": {
         "created": "2019-10-08",
-        "metadataLastUpdated": "2021-06-14",
-        "lastModified": "2021-10-01"
+        "metadataLastUpdated": "2026-09-17",
+        "lastModified": "2025-02-20"
       },
       "languages": [
-        "Dockerfile",
-        "Java"
+        "Java",
+        "Dockerfile"
       ]
     },
     {
@@ -927,7 +957,7 @@
       "permissions": {
         "licenses": [
           {
-            "URL": "https://github.com/NationalSecurityAgency/datawave-accumulo-utils/blob/master/LICENSE",
+            "URL": "https://github.com/NationalSecurityAgency/datawave-accumulo-utils/blob/main/LICENSE",
             "name": "Apache License 2.0"
           }
         ],
@@ -946,11 +976,11 @@
       "status": "Production",
       "vcs": "git",
       "homepageURL": "https://github.com/NationalSecurityAgency/datawave-accumulo-utils",
-      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-accumulo-utils/archive/master.zip",
+      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-accumulo-utils/archive/main.zip",
       "date": {
         "created": "2019-10-08",
-        "metadataLastUpdated": "2021-10-15",
-        "lastModified": "2021-10-15"
+        "metadataLastUpdated": "2026-09-17",
+        "lastModified": "2025-02-20"
       },
       "languages": [
         "Java"
@@ -963,7 +993,7 @@
       "permissions": {
         "licenses": [
           {
-            "URL": "https://github.com/NationalSecurityAgency/datawave-audit-service/blob/master/LICENSE",
+            "URL": "https://github.com/NationalSecurityAgency/datawave-audit-service/blob/main/LICENSE",
             "name": "Apache License 2.0"
           }
         ],
@@ -982,11 +1012,11 @@
       "status": "Production",
       "vcs": "git",
       "homepageURL": "https://github.com/NationalSecurityAgency/datawave-audit-service",
-      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-audit-service/archive/master.zip",
+      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-audit-service/archive/main.zip",
       "date": {
         "created": "2019-10-08",
-        "metadataLastUpdated": "2021-09-23",
-        "lastModified": "2021-10-04"
+        "metadataLastUpdated": "2026-10-11",
+        "lastModified": "2025-03-10"
       },
       "languages": [
         "Java",
@@ -1000,7 +1030,7 @@
       "permissions": {
         "licenses": [
           {
-            "URL": "https://github.com/NationalSecurityAgency/datawave-authorization-service/blob/master/LICENSE",
+            "URL": "https://github.com/NationalSecurityAgency/datawave-authorization-service/blob/main/LICENSE",
             "name": "Apache License 2.0"
           }
         ],
@@ -1019,11 +1049,11 @@
       "status": "Production",
       "vcs": "git",
       "homepageURL": "https://github.com/NationalSecurityAgency/datawave-authorization-service",
-      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-authorization-service/archive/master.zip",
+      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-authorization-service/archive/main.zip",
       "date": {
         "created": "2019-10-08",
-        "metadataLastUpdated": "2021-06-14",
-        "lastModified": "2021-05-17"
+        "metadataLastUpdated": "2026-09-17",
+        "lastModified": "2025-02-20"
       },
       "languages": [
         "Java",
@@ -1037,7 +1067,7 @@
       "permissions": {
         "licenses": [
           {
-            "URL": "https://github.com/NationalSecurityAgency/datawave-base-rest-responses/blob/master/LICENSE",
+            "URL": "https://github.com/NationalSecurityAgency/datawave-base-rest-responses/blob/main/LICENSE",
             "name": "Apache License 2.0"
           }
         ],
@@ -1056,11 +1086,11 @@
       "status": "Production",
       "vcs": "git",
       "homepageURL": "https://github.com/NationalSecurityAgency/datawave-base-rest-responses",
-      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-base-rest-responses/archive/master.zip",
+      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-base-rest-responses/archive/main.zip",
       "date": {
         "created": "2019-10-08",
-        "metadataLastUpdated": "2021-07-14",
-        "lastModified": "2021-09-29"
+        "metadataLastUpdated": "2026-09-17",
+        "lastModified": "2025-02-20"
       },
       "languages": [
         "Java"
@@ -1073,7 +1103,7 @@
       "permissions": {
         "licenses": [
           {
-            "URL": "https://github.com/NationalSecurityAgency/datawave-common-utils/blob/master/LICENSE",
+            "URL": "https://github.com/NationalSecurityAgency/datawave-common-utils/blob/main/LICENSE",
             "name": "Apache License 2.0"
           }
         ],
@@ -1092,11 +1122,11 @@
       "status": "Production",
       "vcs": "git",
       "homepageURL": "https://github.com/NationalSecurityAgency/datawave-common-utils",
-      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-common-utils/archive/master.zip",
+      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-common-utils/archive/main.zip",
       "date": {
         "created": "2019-10-08",
-        "metadataLastUpdated": "2021-06-14",
-        "lastModified": "2021-10-13"
+        "metadataLastUpdated": "2026-09-17",
+        "lastModified": "2025-02-20"
       },
       "languages": [
         "Java"
@@ -1109,7 +1139,7 @@
       "permissions": {
         "licenses": [
           {
-            "URL": "https://github.com/NationalSecurityAgency/datawave-config-service/blob/master/LICENSE",
+            "URL": "https://github.com/NationalSecurityAgency/datawave-config-service/blob/main/LICENSE",
             "name": "Apache License 2.0"
           }
         ],
@@ -1128,11 +1158,11 @@
       "status": "Production",
       "vcs": "git",
       "homepageURL": "https://github.com/NationalSecurityAgency/datawave-config-service",
-      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-config-service/archive/master.zip",
+      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-config-service/archive/main.zip",
       "date": {
         "created": "2019-10-08",
-        "metadataLastUpdated": "2021-09-23",
-        "lastModified": "2021-08-06"
+        "metadataLastUpdated": "2026-09-17",
+        "lastModified": "2025-02-20"
       },
       "languages": [
         "Java",
@@ -1146,7 +1176,7 @@
       "permissions": {
         "licenses": [
           {
-            "URL": "https://github.com/NationalSecurityAgency/datawave-dictionary-service/blob/master/LICENSE",
+            "URL": "https://github.com/NationalSecurityAgency/datawave-dictionary-service/blob/main/LICENSE",
             "name": "Apache License 2.0"
           }
         ],
@@ -1165,14 +1195,19 @@
       "status": "Production",
       "vcs": "git",
       "homepageURL": "https://github.com/NationalSecurityAgency/datawave-dictionary-service",
-      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-dictionary-service/archive/master.zip",
+      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-dictionary-service/archive/main.zip",
       "date": {
         "created": "2019-10-08",
-        "metadataLastUpdated": "2021-09-23",
-        "lastModified": "2021-09-24"
+        "metadataLastUpdated": "2026-10-11",
+        "lastModified": "2025-03-11"
       },
       "languages": [
         "Java",
+        "TypeScript",
+        "JavaScript",
+        "Vue",
+        "CSS",
+        "HTML",
         "Dockerfile"
       ]
     },
@@ -1183,7 +1218,7 @@
       "permissions": {
         "licenses": [
           {
-            "URL": "https://github.com/NationalSecurityAgency/datawave-utils/blob/master/LICENSE",
+            "URL": "https://github.com/NationalSecurityAgency/datawave-utils/blob/main/LICENSE",
             "name": "Apache License 2.0"
           }
         ],
@@ -1202,11 +1237,11 @@
       "status": "Production",
       "vcs": "git",
       "homepageURL": "https://github.com/NationalSecurityAgency/datawave-utils",
-      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-utils/archive/master.zip",
+      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-utils/archive/main.zip",
       "date": {
         "created": "2019-10-08",
-        "metadataLastUpdated": "2021-06-14",
-        "lastModified": "2020-10-13"
+        "metadataLastUpdated": "2026-09-17",
+        "lastModified": "2024-08-13"
       },
       "languages": [
         "Java"
@@ -1219,7 +1254,7 @@
       "permissions": {
         "licenses": [
           {
-            "URL": "https://github.com/NationalSecurityAgency/datawave-hazelcast-service/blob/master/LICENSE",
+            "URL": "https://github.com/NationalSecurityAgency/datawave-hazelcast-service/blob/main/LICENSE",
             "name": "Apache License 2.0"
           }
         ],
@@ -1238,11 +1273,11 @@
       "status": "Production",
       "vcs": "git",
       "homepageURL": "https://github.com/NationalSecurityAgency/datawave-hazelcast-service",
-      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-hazelcast-service/archive/master.zip",
+      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-hazelcast-service/archive/main.zip",
       "date": {
         "created": "2019-10-08",
-        "metadataLastUpdated": "2021-06-14",
-        "lastModified": "2021-08-19"
+        "metadataLastUpdated": "2026-09-17",
+        "lastModified": "2025-02-20"
       },
       "languages": [
         "Java",
@@ -1256,7 +1291,7 @@
       "permissions": {
         "licenses": [
           {
-            "URL": "https://github.com/NationalSecurityAgency/datawave-metadata-utils/blob/master/LICENSE",
+            "URL": "https://github.com/NationalSecurityAgency/datawave-metadata-utils/blob/main/LICENSE",
             "name": "Apache License 2.0"
           }
         ],
@@ -1275,11 +1310,11 @@
       "status": "Production",
       "vcs": "git",
       "homepageURL": "https://github.com/NationalSecurityAgency/datawave-metadata-utils",
-      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-metadata-utils/archive/master.zip",
+      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-metadata-utils/archive/main.zip",
       "date": {
         "created": "2019-10-08",
-        "metadataLastUpdated": "2021-10-15",
-        "lastModified": "2021-10-15"
+        "metadataLastUpdated": "2026-10-11",
+        "lastModified": "2025-03-17"
       },
       "languages": [
         "Java",
@@ -1293,7 +1328,7 @@
       "permissions": {
         "licenses": [
           {
-            "URL": "https://github.com/NationalSecurityAgency/datawave-metrics-reporter/blob/master/LICENSE",
+            "URL": "https://github.com/NationalSecurityAgency/datawave-metrics-reporter/blob/main/LICENSE",
             "name": "Apache License 2.0"
           }
         ],
@@ -1312,11 +1347,11 @@
       "status": "Production",
       "vcs": "git",
       "homepageURL": "https://github.com/NationalSecurityAgency/datawave-metrics-reporter",
-      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-metrics-reporter/archive/master.zip",
+      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-metrics-reporter/archive/main.zip",
       "date": {
         "created": "2019-10-08",
-        "metadataLastUpdated": "2021-06-14",
-        "lastModified": "2020-02-28"
+        "metadataLastUpdated": "2026-09-17",
+        "lastModified": "2025-02-20"
       },
       "languages": [
         "Java"
@@ -1329,7 +1364,7 @@
       "permissions": {
         "licenses": [
           {
-            "URL": "https://github.com/NationalSecurityAgency/datawave-parent/blob/master/LICENSE",
+            "URL": "https://github.com/NationalSecurityAgency/datawave-parent/blob/main/LICENSE",
             "name": "Apache License 2.0"
           }
         ],
@@ -1348,11 +1383,11 @@
       "status": "Production",
       "vcs": "git",
       "homepageURL": "https://github.com/NationalSecurityAgency/datawave-parent",
-      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-parent/archive/master.zip",
+      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-parent/archive/main.zip",
       "date": {
         "created": "2019-10-08",
-        "metadataLastUpdated": "2021-07-14",
-        "lastModified": "2021-07-14"
+        "metadataLastUpdated": "2026-09-17",
+        "lastModified": "2025-02-20"
       },
       "languages": []
     },
@@ -1363,7 +1398,7 @@
       "permissions": {
         "licenses": [
           {
-            "URL": "https://github.com/NationalSecurityAgency/datawave-microservices-root/blob/master/LICENSE",
+            "URL": "https://github.com/NationalSecurityAgency/datawave-microservices-root/blob/main/LICENSE",
             "name": "Apache License 2.0"
           }
         ],
@@ -1382,13 +1417,15 @@
       "status": "Production",
       "vcs": "git",
       "homepageURL": "https://github.com/NationalSecurityAgency/datawave-microservices-root",
-      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-microservices-root/archive/master.zip",
+      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-microservices-root/archive/main.zip",
       "date": {
         "created": "2019-10-08",
-        "metadataLastUpdated": "2021-09-23",
-        "lastModified": "2021-10-04"
+        "metadataLastUpdated": "2026-09-17",
+        "lastModified": "2023-09-08"
       },
-      "languages": []
+      "languages": [
+        "Shell"
+      ]
     },
     {
       "name": "datawave-service-parent",
@@ -1397,7 +1434,7 @@
       "permissions": {
         "licenses": [
           {
-            "URL": "https://github.com/NationalSecurityAgency/datawave-service-parent/blob/master/LICENSE",
+            "URL": "https://github.com/NationalSecurityAgency/datawave-service-parent/blob/main/LICENSE",
             "name": "Apache License 2.0"
           }
         ],
@@ -1416,11 +1453,11 @@
       "status": "Production",
       "vcs": "git",
       "homepageURL": "https://github.com/NationalSecurityAgency/datawave-service-parent",
-      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-service-parent/archive/master.zip",
+      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-service-parent/archive/main.zip",
       "date": {
         "created": "2019-10-08",
-        "metadataLastUpdated": "2021-06-14",
-        "lastModified": "2021-04-16"
+        "metadataLastUpdated": "2026-09-17",
+        "lastModified": "2025-02-20"
       },
       "languages": []
     },
@@ -1431,7 +1468,7 @@
       "permissions": {
         "licenses": [
           {
-            "URL": "https://github.com/NationalSecurityAgency/datawave-spring-boot-starter/blob/master/LICENSE",
+            "URL": "https://github.com/NationalSecurityAgency/datawave-spring-boot-starter/blob/main/LICENSE",
             "name": "Apache License 2.0"
           }
         ],
@@ -1450,11 +1487,11 @@
       "status": "Production",
       "vcs": "git",
       "homepageURL": "https://github.com/NationalSecurityAgency/datawave-spring-boot-starter",
-      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-spring-boot-starter/archive/master.zip",
+      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-spring-boot-starter/archive/main.zip",
       "date": {
         "created": "2019-10-08",
-        "metadataLastUpdated": "2021-06-14",
-        "lastModified": "2021-06-02"
+        "metadataLastUpdated": "2026-10-11",
+        "lastModified": "2025-05-28"
       },
       "languages": [
         "Java",
@@ -1468,7 +1505,7 @@
       "permissions": {
         "licenses": [
           {
-            "URL": "https://github.com/NationalSecurityAgency/datawave-spring-boot-starter-audit/blob/master/LICENSE",
+            "URL": "https://github.com/NationalSecurityAgency/datawave-spring-boot-starter-audit/blob/main/LICENSE",
             "name": "Apache License 2.0"
           }
         ],
@@ -1487,11 +1524,11 @@
       "status": "Production",
       "vcs": "git",
       "homepageURL": "https://github.com/NationalSecurityAgency/datawave-spring-boot-starter-audit",
-      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-spring-boot-starter-audit/archive/master.zip",
+      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-spring-boot-starter-audit/archive/main.zip",
       "date": {
         "created": "2019-10-08",
-        "metadataLastUpdated": "2021-06-14",
-        "lastModified": "2021-04-16"
+        "metadataLastUpdated": "2026-09-17",
+        "lastModified": "2025-02-12"
       },
       "languages": [
         "Java"
@@ -1504,7 +1541,7 @@
       "permissions": {
         "licenses": [
           {
-            "URL": "https://github.com/NationalSecurityAgency/datawave-spring-boot-starter-cache/blob/master/LICENSE",
+            "URL": "https://github.com/NationalSecurityAgency/datawave-spring-boot-starter-cache/blob/main/LICENSE",
             "name": "Apache License 2.0"
           }
         ],
@@ -1523,11 +1560,11 @@
       "status": "Production",
       "vcs": "git",
       "homepageURL": "https://github.com/NationalSecurityAgency/datawave-spring-boot-starter-cache",
-      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-spring-boot-starter-cache/archive/master.zip",
+      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-spring-boot-starter-cache/archive/main.zip",
       "date": {
         "created": "2019-10-08",
-        "metadataLastUpdated": "2021-06-14",
-        "lastModified": "2021-04-02"
+        "metadataLastUpdated": "2026-09-17",
+        "lastModified": "2025-01-22"
       },
       "languages": [
         "Java"
@@ -1540,7 +1577,7 @@
       "permissions": {
         "licenses": [
           {
-            "URL": "https://github.com/NationalSecurityAgency/datawave-type-utils/blob/master/LICENSE",
+            "URL": "https://github.com/NationalSecurityAgency/datawave-type-utils/blob/main/LICENSE",
             "name": "Apache License 2.0"
           }
         ],
@@ -1559,11 +1596,11 @@
       "status": "Production",
       "vcs": "git",
       "homepageURL": "https://github.com/NationalSecurityAgency/datawave-type-utils",
-      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-type-utils/archive/master.zip",
+      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-type-utils/archive/main.zip",
       "date": {
         "created": "2019-10-08",
-        "metadataLastUpdated": "2021-09-23",
-        "lastModified": "2021-10-01"
+        "metadataLastUpdated": "2026-10-11",
+        "lastModified": "2026-01-26"
       },
       "languages": [
         "Java"
@@ -1590,20 +1627,20 @@
         "name": "NSA Technology Transfer Program",
         "phone": "1-866-680-4539"
       },
-      "status": "Production",
+      "status": "Archival",
       "vcs": "git",
       "homepageURL": "https://github.com/NationalSecurityAgency/kmyth",
-      "downloadURL": "https://github.com/NationalSecurityAgency/kmyth/archive/master.zip",
+      "downloadURL": "https://github.com/NationalSecurityAgency/kmyth/archive/main.zip",
       "date": {
         "created": "2019-11-22",
-        "metadataLastUpdated": "2021-10-20",
-        "lastModified": "2021-10-20"
+        "metadataLastUpdated": "2026-10-16",
+        "lastModified": "2024-11-27"
       },
       "languages": [
-        "Shell",
         "C",
         "Makefile",
-        "C++"
+        "C++",
+        "Shell"
       ]
     },
     {
@@ -1613,7 +1650,7 @@
       "permissions": {
         "licenses": [
           {
-            "URL": "https://github.com/NationalSecurityAgency/accumulo-python3/blob/master/LICENSE",
+            "URL": "https://github.com/NationalSecurityAgency/accumulo-python3/blob/main/LICENSE",
             "name": "Apache License 2.0"
           }
         ],
@@ -1629,14 +1666,14 @@
         "name": "NSA Technology Transfer Program",
         "phone": "1-866-680-4539"
       },
-      "status": "Production",
+      "status": "Archival",
       "vcs": "git",
       "homepageURL": "https://github.com/NationalSecurityAgency/accumulo-python3",
-      "downloadURL": "https://github.com/NationalSecurityAgency/accumulo-python3/archive/master.zip",
+      "downloadURL": "https://github.com/NationalSecurityAgency/accumulo-python3/archive/main.zip",
       "date": {
         "created": "2020-01-29",
-        "metadataLastUpdated": "2021-10-12",
-        "lastModified": "2020-03-26"
+        "metadataLastUpdated": "2026-09-20",
+        "lastModified": "2023-10-05"
       },
       "languages": [
         "Python"
@@ -1675,8 +1712,8 @@
       "downloadURL": "https://github.com/NationalSecurityAgency/XORSATFilter/archive/master.zip",
       "date": {
         "created": "2020-02-04",
-        "metadataLastUpdated": "2021-09-11",
-        "lastModified": "2020-05-24"
+        "metadataLastUpdated": "2026-10-19",
+        "lastModified": "2022-08-04"
       },
       "languages": [
         "C",
@@ -1697,26 +1734,32 @@
         "usageType": "openSource"
       },
       "laborHours": 1,
-      "tags": [],
+      "tags": [
+        "coordinates",
+        "mgrs",
+        "qgis",
+        "snapshot",
+        "zoom"
+      ],
       "contact": {
         "email": "tech_transfer@nsa.gov",
         "URL": "https://www.nsa.gov/Research/Technology-Transfer-Program/",
         "name": "NSA Technology Transfer Program",
         "phone": "1-866-680-4539"
       },
-      "status": "Production",
+      "status": "Archival",
       "vcs": "git",
       "homepageURL": "https://github.com/NationalSecurityAgency/qgis-mgrs-plugin",
       "downloadURL": "https://github.com/NationalSecurityAgency/qgis-mgrs-plugin/archive/master.zip",
       "date": {
         "created": "2020-02-05",
-        "metadataLastUpdated": "2021-06-25",
-        "lastModified": "2021-03-25"
+        "metadataLastUpdated": "2026-10-18",
+        "lastModified": "2024-06-10"
       },
       "languages": [
+        "Python",
         "HTML",
-        "Makefile",
-        "Python"
+        "Makefile"
       ]
     },
     {
@@ -1746,19 +1789,19 @@
       "downloadURL": "https://github.com/NationalSecurityAgency/skills-service/archive/master.zip",
       "date": {
         "created": "2020-02-24",
-        "metadataLastUpdated": "2021-10-12",
-        "lastModified": "2021-10-20"
+        "metadataLastUpdated": "2026-11-16",
+        "lastModified": "2026-11-17"
       },
       "languages": [
+        "Groovy",
         "JavaScript",
         "Vue",
         "Java",
-        "SCSS",
+        "PLpgSQL",
+        "HTML",
         "Shell",
-        "Groovy",
-        "Dockerfile",
         "CSS",
-        "HTML"
+        "Dockerfile"
       ]
     },
     {
@@ -1788,20 +1831,19 @@
       "downloadURL": "https://github.com/NationalSecurityAgency/skills-docs/archive/master.zip",
       "date": {
         "created": "2020-02-24",
-        "metadataLastUpdated": "2021-10-11",
-        "lastModified": "2021-10-06"
+        "metadataLastUpdated": "2026-11-06",
+        "lastModified": "2026-10-19"
       },
       "languages": [
-        "HTML",
         "JavaScript",
-        "Shell",
-        "Vue"
+        "Vue",
+        "HTML"
       ]
     },
     {
       "name": "skills-client",
       "repositoryURL": "https://github.com/NationalSecurityAgency/skills-client",
-      "description": "SkillTree client libraries facilitating the rapid integration of a gamified tool training approach in conjunction with skills-service. Provides out of the box support for Angular, React, Vue.js, and native Javascript.",
+      "description": "SkillTree client libraries facilitate the rapid integration of a gamified tool training approach in conjunction with skills-service.",
       "permissions": {
         "licenses": [
           {
@@ -1825,18 +1867,15 @@
       "downloadURL": "https://github.com/NationalSecurityAgency/skills-client/archive/master.zip",
       "date": {
         "created": "2020-02-24",
-        "metadataLastUpdated": "2021-09-29",
-        "lastModified": "2021-09-22"
+        "metadataLastUpdated": "2026-10-23",
+        "lastModified": "2026-10-23"
       },
       "languages": [
+        "JavaScript",
         "Groovy",
-        "TypeScript",
-        "Vue",
-        "HTML",
         "Java",
-        "CSS",
-        "Shell",
-        "JavaScript"
+        "HTML",
+        "CSS"
       ]
     },
     {
@@ -1866,15 +1905,12 @@
       "downloadURL": "https://github.com/NationalSecurityAgency/skills-client-examples/archive/master.zip",
       "date": {
         "created": "2020-02-24",
-        "metadataLastUpdated": "2021-09-30",
-        "lastModified": "2021-09-30"
+        "metadataLastUpdated": "2026-10-25",
+        "lastModified": "2026-10-23"
       },
       "languages": [
-        "JavaScript",
-        "Vue",
-        "CSS",
         "Java",
-        "TypeScript",
+        "JavaScript",
         "HTML"
       ]
     },
@@ -1905,14 +1941,14 @@
       "downloadURL": "https://github.com/NationalSecurityAgency/skills-stress-test/archive/master.zip",
       "date": {
         "created": "2020-02-24",
-        "metadataLastUpdated": "2021-10-12",
-        "lastModified": "2021-04-12"
+        "metadataLastUpdated": "2026-11-04",
+        "lastModified": "2026-10-23"
       },
       "languages": [
         "Groovy",
         "Vue",
-        "Java",
         "JavaScript",
+        "Java",
         "HTML"
       ]
     },
@@ -1943,8 +1979,8 @@
       "downloadURL": "https://github.com/NationalSecurityAgency/call-stack-profiler/archive/master.zip",
       "date": {
         "created": "2020-02-24",
-        "metadataLastUpdated": "2021-10-19",
-        "lastModified": "2021-10-06"
+        "metadataLastUpdated": "2026-10-11",
+        "lastModified": "2025-07-12"
       },
       "languages": [
         "Groovy",
@@ -1972,19 +2008,19 @@
         "name": "NSA Technology Transfer Program",
         "phone": "1-866-680-4539"
       },
-      "status": "Production",
+      "status": "Archival",
       "vcs": "git",
       "homepageURL": "https://github.com/NationalSecurityAgency/qgis-lockzoom-plugin",
       "downloadURL": "https://github.com/NationalSecurityAgency/qgis-lockzoom-plugin/archive/master.zip",
       "date": {
         "created": "2020-03-10",
-        "metadataLastUpdated": "2021-06-25",
-        "lastModified": "2021-02-26"
+        "metadataLastUpdated": "2026-03-11",
+        "lastModified": "2024-06-10"
       },
       "languages": [
+        "Python",
         "HTML",
-        "Makefile",
-        "Python"
+        "Makefile"
       ]
     },
     {
@@ -1994,7 +2030,7 @@
       "permissions": {
         "licenses": [
           {
-            "URL": "https://github.com/NationalSecurityAgency/PACE/blob/master/LICENSE",
+            "URL": "https://github.com/NationalSecurityAgency/PACE/blob/main/LICENSE",
             "name": "Apache License 2.0"
           }
         ],
@@ -2011,11 +2047,11 @@
       "status": "Production",
       "vcs": "git",
       "homepageURL": "https://github.com/NationalSecurityAgency/PACE",
-      "downloadURL": "https://github.com/NationalSecurityAgency/PACE/archive/master.zip",
+      "downloadURL": "https://github.com/NationalSecurityAgency/PACE/archive/main.zip",
       "date": {
         "created": "2020-08-07",
-        "metadataLastUpdated": "2021-08-14",
-        "lastModified": "2017-06-05"
+        "metadataLastUpdated": "2026-10-18",
+        "lastModified": "2023-08-15"
       },
       "languages": [
         "Java",
@@ -2029,7 +2065,7 @@
       "permissions": {
         "licenses": [
           {
-            "URL": "https://github.com/NationalSecurityAgency/PACE-python/blob/master/LICENSE.txt",
+            "URL": "https://github.com/NationalSecurityAgency/PACE-python/blob/main/LICENSE.txt",
             "name": "BSD 2-Clause \"Simplified\" License"
           }
         ],
@@ -2046,15 +2082,15 @@
       "status": "Production",
       "vcs": "git",
       "homepageURL": "https://github.com/NationalSecurityAgency/PACE-python",
-      "downloadURL": "https://github.com/NationalSecurityAgency/PACE-python/archive/master.zip",
+      "downloadURL": "https://github.com/NationalSecurityAgency/PACE-python/archive/main.zip",
       "date": {
         "created": "2020-08-07",
-        "metadataLastUpdated": "2021-08-14",
-        "lastModified": "2016-12-06"
+        "metadataLastUpdated": "2026-06-10",
+        "lastModified": "2023-08-15"
       },
       "languages": [
-        "Shell",
-        "Python"
+        "Python",
+        "Shell"
       ]
     },
     {
@@ -2065,7 +2101,7 @@
         "licenses": [
           {
             "URL": "https://github.com/NationalSecurityAgency/qgis-datetimetools-plugin/blob/master/LICENSE",
-            "name": "Other"
+            "name": "GNU General Public License v2.0"
           }
         ],
         "usageType": "openSource"
@@ -2087,14 +2123,14 @@
         "name": "NSA Technology Transfer Program",
         "phone": "1-866-680-4539"
       },
-      "status": "Production",
+      "status": "Archival",
       "vcs": "git",
       "homepageURL": "https://github.com/NationalSecurityAgency/qgis-datetimetools-plugin",
       "downloadURL": "https://github.com/NationalSecurityAgency/qgis-datetimetools-plugin/archive/master.zip",
       "date": {
         "created": "2021-01-15",
-        "metadataLastUpdated": "2021-06-25",
-        "lastModified": "2021-04-19"
+        "metadataLastUpdated": "2026-10-18",
+        "lastModified": "2024-06-10"
       },
       "languages": [
         "Python",
@@ -2109,7 +2145,7 @@
       "permissions": {
         "licenses": [
           {
-            "URL": "https://github.com/NationalSecurityAgency/datawave-query-metric-service/blob/master/LICENSE",
+            "URL": "https://github.com/NationalSecurityAgency/datawave-query-metric-service/blob/main/LICENSE",
             "name": "Apache License 2.0"
           }
         ],
@@ -2126,15 +2162,18 @@
       "status": "Production",
       "vcs": "git",
       "homepageURL": "https://github.com/NationalSecurityAgency/datawave-query-metric-service",
-      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-query-metric-service/archive/master.zip",
+      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-query-metric-service/archive/main.zip",
       "date": {
         "created": "2021-02-24",
-        "metadataLastUpdated": "2021-10-12",
-        "lastModified": "2021-10-12"
+        "metadataLastUpdated": "2026-09-17",
+        "lastModified": "2025-01-30"
       },
       "languages": [
-        "Dockerfile",
-        "Java"
+        "Java",
+        "HTML",
+        "JavaScript",
+        "CSS",
+        "Dockerfile"
       ]
     },
     {
@@ -2158,26 +2197,28 @@
         "name": "NSA Technology Transfer Program",
         "phone": "1-866-680-4539"
       },
-      "status": "Production",
+      "status": "Archival",
       "vcs": "git",
       "homepageURL": "https://github.com/NationalSecurityAgency/pelz",
-      "downloadURL": "https://github.com/NationalSecurityAgency/pelz/archive/master.zip",
+      "downloadURL": "https://github.com/NationalSecurityAgency/pelz/archive/main.zip",
       "date": {
         "created": "2021-04-06",
-        "metadataLastUpdated": "2021-10-18",
-        "lastModified": "2021-10-20"
+        "metadataLastUpdated": "2026-08-05",
+        "lastModified": "2024-05-09"
       },
       "languages": [
-        "Java",
         "C",
+        "Java",
+        "C++",
         "Makefile",
-        "Shell"
+        "Shell",
+        "Python"
       ]
     },
     {
       "name": "qgis-earthsunmoon-plugin",
       "repositoryURL": "https://github.com/NationalSecurityAgency/qgis-earthsunmoon-plugin",
-      "description": "",
+      "description": "QGIS plugin to show the location of the sun, moon, and planets at their zenith for a particular date and time.",
       "permissions": {
         "licenses": [
           {
@@ -2188,37 +2229,45 @@
         "usageType": "openSource"
       },
       "laborHours": 1,
-      "tags": [],
+      "tags": [
+        "azimuth",
+        "bearing",
+        "moon",
+        "planets",
+        "qgis",
+        "sun",
+        "zenith"
+      ],
       "contact": {
         "email": "tech_transfer@nsa.gov",
         "URL": "https://www.nsa.gov/Research/Technology-Transfer-Program/",
         "name": "NSA Technology Transfer Program",
         "phone": "1-866-680-4539"
       },
-      "status": "Production",
+      "status": "Archival",
       "vcs": "git",
       "homepageURL": "https://github.com/NationalSecurityAgency/qgis-earthsunmoon-plugin",
-      "downloadURL": "https://github.com/NationalSecurityAgency/qgis-earthsunmoon-plugin/archive/master.zip",
+      "downloadURL": "https://github.com/NationalSecurityAgency/qgis-earthsunmoon-plugin/archive/main.zip",
       "date": {
         "created": "2021-10-08",
-        "metadataLastUpdated": "2021-10-08",
-        "lastModified": "2021-10-08"
+        "metadataLastUpdated": "2026-10-13",
+        "lastModified": "2024-06-10"
       },
       "languages": [
-        "HTML",
-        "Makefile",
         "QML",
-        "Python"
+        "Python",
+        "HTML",
+        "Makefile"
       ]
     },
     {
-      "name": "SeaBee",
-      "repositoryURL": "https://github.com/NationalSecurityAgency/seabee",
-      "description": "SeaBee enforces policy-based access control on eBPF objects",
+      "name": "datawave-spring-boot-starter-query",
+      "repositoryURL": "https://github.com/NationalSecurityAgency/datawave-spring-boot-starter-query",
+      "description": "",
       "permissions": {
         "licenses": [
           {
-            "URL": "https://github.com/NationalSecurityAgency/seabee/blob/main/LICENSE",
+            "URL": "https://github.com/NationalSecurityAgency/datawave-spring-boot-starter-query/blob/main/LICENSE",
             "name": "Apache License 2.0"
           }
         ],
@@ -2234,12 +2283,915 @@
       },
       "status": "Production",
       "vcs": "git",
-      "homepageURL": "https://github.com/NationalSecurityAgency/seabee",
+      "homepageURL": "https://github.com/NationalSecurityAgency/datawave-spring-boot-starter-query",
+      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-spring-boot-starter-query/archive/main.zip",
+      "date": {
+        "created": "2022-05-15",
+        "metadataLastUpdated": "2024-11-06",
+        "lastModified": "2025-01-22"
+      },
+      "languages": [
+        "Java"
+      ]
+    },
+    {
+      "name": "datawave-spring-boot-starter-query-metric",
+      "repositoryURL": "https://github.com/NationalSecurityAgency/datawave-spring-boot-starter-query-metric",
+      "description": "",
+      "permissions": {
+        "licenses": [
+          {
+            "URL": "https://github.com/NationalSecurityAgency/datawave-spring-boot-starter-query-metric/blob/main/LICENSE",
+            "name": "Apache License 2.0"
+          }
+        ],
+        "usageType": "openSource"
+      },
+      "laborHours": 1,
+      "tags": [],
+      "contact": {
+        "email": "tech_transfer@nsa.gov",
+        "URL": "https://www.nsa.gov/Research/Technology-Transfer-Program/",
+        "name": "NSA Technology Transfer Program",
+        "phone": "1-866-680-4539"
+      },
+      "status": "Production",
+      "vcs": "git",
+      "homepageURL": "https://github.com/NationalSecurityAgency/datawave-spring-boot-starter-query-metric",
+      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-spring-boot-starter-query-metric/archive/main.zip",
+      "date": {
+        "created": "2022-05-15",
+        "metadataLastUpdated": "2025-03-08",
+        "lastModified": "2025-01-22"
+      },
+      "languages": [
+        "Java"
+      ]
+    },
+    {
+      "name": "datawave-spring-boot-starter-metadata",
+      "repositoryURL": "https://github.com/NationalSecurityAgency/datawave-spring-boot-starter-metadata",
+      "description": "",
+      "permissions": {
+        "licenses": [
+          {
+            "URL": "https://github.com/NationalSecurityAgency/datawave-spring-boot-starter-metadata/blob/main/LICENSE",
+            "name": "Apache License 2.0"
+          }
+        ],
+        "usageType": "openSource"
+      },
+      "laborHours": 1,
+      "tags": [],
+      "contact": {
+        "email": "tech_transfer@nsa.gov",
+        "URL": "https://www.nsa.gov/Research/Technology-Transfer-Program/",
+        "name": "NSA Technology Transfer Program",
+        "phone": "1-866-680-4539"
+      },
+      "status": "Production",
+      "vcs": "git",
+      "homepageURL": "https://github.com/NationalSecurityAgency/datawave-spring-boot-starter-metadata",
+      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-spring-boot-starter-metadata/archive/main.zip",
+      "date": {
+        "created": "2022-05-15",
+        "metadataLastUpdated": "2025-11-26",
+        "lastModified": "2025-02-12"
+      },
+      "languages": [
+        "Java"
+      ]
+    },
+    {
+      "name": "datawave-query-service",
+      "repositoryURL": "https://github.com/NationalSecurityAgency/datawave-query-service",
+      "description": "",
+      "permissions": {
+        "licenses": [
+          {
+            "URL": "https://github.com/NationalSecurityAgency/datawave-query-service/blob/main/LICENSE",
+            "name": "Apache License 2.0"
+          }
+        ],
+        "usageType": "openSource"
+      },
+      "laborHours": 1,
+      "tags": [],
+      "contact": {
+        "email": "tech_transfer@nsa.gov",
+        "URL": "https://www.nsa.gov/Research/Technology-Transfer-Program/",
+        "name": "NSA Technology Transfer Program",
+        "phone": "1-866-680-4539"
+      },
+      "status": "Production",
+      "vcs": "git",
+      "homepageURL": "https://github.com/NationalSecurityAgency/datawave-query-service",
+      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-query-service/archive/main.zip",
+      "date": {
+        "created": "2022-05-15",
+        "metadataLastUpdated": "2026-10-11",
+        "lastModified": "2025-04-23"
+      },
+      "languages": [
+        "Java",
+        "HTML",
+        "JavaScript",
+        "Dockerfile",
+        "CSS"
+      ]
+    },
+    {
+      "name": "datawave-query-executor-service",
+      "repositoryURL": "https://github.com/NationalSecurityAgency/datawave-query-executor-service",
+      "description": "",
+      "permissions": {
+        "licenses": [
+          {
+            "URL": "https://github.com/NationalSecurityAgency/datawave-query-executor-service/blob/main/LICENSE",
+            "name": "Apache License 2.0"
+          }
+        ],
+        "usageType": "openSource"
+      },
+      "laborHours": 1,
+      "tags": [],
+      "contact": {
+        "email": "tech_transfer@nsa.gov",
+        "URL": "https://www.nsa.gov/Research/Technology-Transfer-Program/",
+        "name": "NSA Technology Transfer Program",
+        "phone": "1-866-680-4539"
+      },
+      "status": "Production",
+      "vcs": "git",
+      "homepageURL": "https://github.com/NationalSecurityAgency/datawave-query-executor-service",
+      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-query-executor-service/archive/main.zip",
+      "date": {
+        "created": "2022-05-15",
+        "metadataLastUpdated": "2026-10-11",
+        "lastModified": "2025-04-23"
+      },
+      "languages": [
+        "Java",
+        "Dockerfile"
+      ]
+    },
+    {
+      "name": "datawave-query-storage-service",
+      "repositoryURL": "https://github.com/NationalSecurityAgency/datawave-query-storage-service",
+      "description": "",
+      "permissions": {
+        "licenses": [
+          {
+            "URL": "https://github.com/NationalSecurityAgency/datawave-query-storage-service/blob/main/LICENSE",
+            "name": "Apache License 2.0"
+          }
+        ],
+        "usageType": "openSource"
+      },
+      "laborHours": 1,
+      "tags": [],
+      "contact": {
+        "email": "tech_transfer@nsa.gov",
+        "URL": "https://www.nsa.gov/Research/Technology-Transfer-Program/",
+        "name": "NSA Technology Transfer Program",
+        "phone": "1-866-680-4539"
+      },
+      "status": "Production",
+      "vcs": "git",
+      "homepageURL": "https://github.com/NationalSecurityAgency/datawave-query-storage-service",
+      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-query-storage-service/archive/main.zip",
+      "date": {
+        "created": "2022-05-15",
+        "metadataLastUpdated": "2026-09-01",
+        "lastModified": "2024-04-19"
+      },
+      "languages": []
+    },
+    {
+      "name": "datawave-modification-service",
+      "repositoryURL": "https://github.com/NationalSecurityAgency/datawave-modification-service",
+      "description": "",
+      "permissions": {
+        "licenses": [
+          {
+            "URL": "https://github.com/NationalSecurityAgency/datawave-modification-service/blob/main/LICENSE",
+            "name": "Apache License 2.0"
+          }
+        ],
+        "usageType": "openSource"
+      },
+      "laborHours": 1,
+      "tags": [],
+      "contact": {
+        "email": "tech_transfer@nsa.gov",
+        "URL": "https://www.nsa.gov/Research/Technology-Transfer-Program/",
+        "name": "NSA Technology Transfer Program",
+        "phone": "1-866-680-4539"
+      },
+      "status": "Production",
+      "vcs": "git",
+      "homepageURL": "https://github.com/NationalSecurityAgency/datawave-modification-service",
+      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-modification-service/archive/main.zip",
+      "date": {
+        "created": "2022-05-15",
+        "metadataLastUpdated": "2025-11-26",
+        "lastModified": "2025-01-28"
+      },
+      "languages": [
+        "Java",
+        "Dockerfile"
+      ]
+    },
+    {
+      "name": "qgis-densityanalysis-plugin",
+      "repositoryURL": "https://github.com/NationalSecurityAgency/qgis-densityanalysis-plugin",
+      "description": "QGIS plugin that automates the creation of density heatmaps with a heatmap explorer to examine the areas of greatest concentrations. It includes H3, geohash, and polygon density map algorithms along with several styling algorithms.",
+      "permissions": {
+        "licenses": [
+          {
+            "URL": "https://github.com/NationalSecurityAgency/qgis-densityanalysis-plugin/blob/main/LICENSE",
+            "name": "GNU General Public License v2.0"
+          }
+        ],
+        "usageType": "openSource"
+      },
+      "laborHours": 1,
+      "tags": [
+        "analysis",
+        "density",
+        "gis",
+        "heatmap",
+        "kernel",
+        "plugin",
+        "point",
+        "polygon",
+        "qgis",
+        "style"
+      ],
+      "contact": {
+        "email": "tech_transfer@nsa.gov",
+        "URL": "https://www.nsa.gov/Research/Technology-Transfer-Program/",
+        "name": "NSA Technology Transfer Program",
+        "phone": "1-866-680-4539"
+      },
+      "status": "Archival",
+      "vcs": "git",
+      "homepageURL": "https://plugins.qgis.org/plugins/densityanalysis/",
+      "downloadURL": "https://github.com/NationalSecurityAgency/qgis-densityanalysis-plugin/archive/main.zip",
+      "date": {
+        "created": "2022-06-08",
+        "metadataLastUpdated": "2026-10-18",
+        "lastModified": "2024-06-10"
+      },
+      "languages": [
+        "Python",
+        "HTML",
+        "Makefile"
+      ]
+    },
+    {
+      "name": "datawave-ingest-services",
+      "repositoryURL": "https://github.com/NationalSecurityAgency/datawave-ingest-services",
+      "description": "",
+      "permissions": {
+        "licenses": [
+          {
+            "URL": "https://github.com/NationalSecurityAgency/datawave-ingest-services/blob/main/LICENSE",
+            "name": "Apache License 2.0"
+          }
+        ],
+        "usageType": "openSource"
+      },
+      "laborHours": 1,
+      "tags": [],
+      "contact": {
+        "email": "tech_transfer@nsa.gov",
+        "URL": "https://www.nsa.gov/Research/Technology-Transfer-Program/",
+        "name": "NSA Technology Transfer Program",
+        "phone": "1-866-680-4539"
+      },
+      "status": "Production",
+      "vcs": "git",
+      "homepageURL": "https://github.com/NationalSecurityAgency/datawave-ingest-services",
+      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-ingest-services/archive/main.zip",
+      "date": {
+        "created": "2022-11-29",
+        "metadataLastUpdated": "2026-10-11",
+        "lastModified": "2026-07-29"
+      },
+      "languages": [
+        "Java",
+        "Go Template",
+        "Dockerfile"
+      ]
+    },
+    {
+      "name": "datawave-mapreduce-query-service",
+      "repositoryURL": "https://github.com/NationalSecurityAgency/datawave-mapreduce-query-service",
+      "description": "",
+      "permissions": {
+        "licenses": [
+          {
+            "URL": "https://github.com/NationalSecurityAgency/datawave-mapreduce-query-service/blob/main/LICENSE",
+            "name": "Apache License 2.0"
+          }
+        ],
+        "usageType": "openSource"
+      },
+      "laborHours": 1,
+      "tags": [],
+      "contact": {
+        "email": "tech_transfer@nsa.gov",
+        "URL": "https://www.nsa.gov/Research/Technology-Transfer-Program/",
+        "name": "NSA Technology Transfer Program",
+        "phone": "1-866-680-4539"
+      },
+      "status": "Production",
+      "vcs": "git",
+      "homepageURL": "https://github.com/NationalSecurityAgency/datawave-mapreduce-query-service",
+      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-mapreduce-query-service/archive/main.zip",
+      "date": {
+        "created": "2022-12-02",
+        "metadataLastUpdated": "2025-11-26",
+        "lastModified": "2025-01-22"
+      },
+      "languages": [
+        "Java",
+        "Dockerfile"
+      ]
+    },
+    {
+      "name": "datawave-spring-boot-starter-cached-results",
+      "repositoryURL": "https://github.com/NationalSecurityAgency/datawave-spring-boot-starter-cached-results",
+      "description": "",
+      "permissions": {
+        "licenses": [
+          {
+            "URL": "https://github.com/NationalSecurityAgency/datawave-spring-boot-starter-cached-results/blob/main/LICENSE",
+            "name": "Apache License 2.0"
+          }
+        ],
+        "usageType": "openSource"
+      },
+      "laborHours": 1,
+      "tags": [],
+      "contact": {
+        "email": "tech_transfer@nsa.gov",
+        "URL": "https://www.nsa.gov/Research/Technology-Transfer-Program/",
+        "name": "NSA Technology Transfer Program",
+        "phone": "1-866-680-4539"
+      },
+      "status": "Production",
+      "vcs": "git",
+      "homepageURL": "https://github.com/NationalSecurityAgency/datawave-spring-boot-starter-cached-results",
+      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-spring-boot-starter-cached-results/archive/main.zip",
+      "date": {
+        "created": "2023-03-03",
+        "metadataLastUpdated": "2025-11-26",
+        "lastModified": "2025-01-22"
+      },
+      "languages": [
+        "Java"
+      ]
+    },
+    {
+      "name": "maat",
+      "repositoryURL": "https://github.com/NationalSecurityAgency/maat",
+      "description": "Maat is a centralized software integrity measurement and attestation (M&A) service",
+      "permissions": {
+        "licenses": [
+          {
+            "URL": "https://github.com/NationalSecurityAgency/maat/blob/develop/LICENSE",
+            "name": "Other"
+          }
+        ],
+        "usageType": "openSource"
+      },
+      "laborHours": 1,
+      "tags": [],
+      "contact": {
+        "email": "tech_transfer@nsa.gov",
+        "URL": "https://www.nsa.gov/Research/Technology-Transfer-Program/",
+        "name": "NSA Technology Transfer Program",
+        "phone": "1-866-680-4539"
+      },
+      "status": "Archival",
+      "vcs": "git",
+      "homepageURL": "https://github.com/NationalSecurityAgency/maat",
+      "downloadURL": "https://github.com/NationalSecurityAgency/maat/archive/develop.zip",
+      "date": {
+        "created": "2023-03-06",
+        "metadataLastUpdated": "2026-06-14",
+        "lastModified": "2024-10-21"
+      },
+      "languages": [
+        "C",
+        "OCaml",
+        "Makefile",
+        "Assembly",
+        "Python",
+        "M4",
+        "JavaScript",
+        "CSS",
+        "Java",
+        "HTML",
+        "Shell",
+        "Dockerfile",
+        "Common Lisp",
+        "Dune",
+        "Awk"
+      ]
+    },
+    {
+      "name": "qgis-h3library-plugin",
+      "repositoryURL": "https://github.com/NationalSecurityAgency/qgis-h3library-plugin",
+      "description": "QGIS plugin that installs the H3 library without having to 'pip install h3'.",
+      "permissions": {
+        "licenses": [
+          {
+            "URL": "https://github.com/NationalSecurityAgency/qgis-h3library-plugin/blob/main/LICENSE",
+            "name": "GNU General Public License v2.0"
+          }
+        ],
+        "usageType": "openSource"
+      },
+      "laborHours": 1,
+      "tags": [
+        "geohash",
+        "h3",
+        "qgis"
+      ],
+      "contact": {
+        "email": "tech_transfer@nsa.gov",
+        "URL": "https://www.nsa.gov/Research/Technology-Transfer-Program/",
+        "name": "NSA Technology Transfer Program",
+        "phone": "1-866-680-4539"
+      },
+      "status": "Archival",
+      "vcs": "git",
+      "homepageURL": "https://github.com/NationalSecurityAgency/qgis-h3library-plugin",
+      "downloadURL": "https://github.com/NationalSecurityAgency/qgis-h3library-plugin/archive/main.zip",
+      "date": {
+        "created": "2023-03-31",
+        "metadataLastUpdated": "2026-03-11",
+        "lastModified": "2024-04-09"
+      },
+      "languages": [
+        "C",
+        "Python",
+        "CMake",
+        "Shell",
+        "Makefile",
+        "PowerShell"
+      ]
+    },
+    {
+      "name": "ghidra-extensions",
+      "repositoryURL": "https://github.com/NationalSecurityAgency/ghidra-extensions",
+      "description": "",
+      "permissions": {
+        "licenses": null,
+        "usageType": "openSource"
+      },
+      "laborHours": 1,
+      "tags": [],
+      "contact": {
+        "email": "tech_transfer@nsa.gov",
+        "URL": "https://www.nsa.gov/Research/Technology-Transfer-Program/",
+        "name": "NSA Technology Transfer Program",
+        "phone": "1-866-680-4539"
+      },
+      "status": "Production",
+      "vcs": "git",
+      "homepageURL": "https://github.com/NationalSecurityAgency/ghidra-extensions",
+      "downloadURL": "https://github.com/NationalSecurityAgency/ghidra-extensions/archive/main.zip",
+      "date": {
+        "created": "2023-08-29",
+        "metadataLastUpdated": "2026-11-07",
+        "lastModified": "2025-03-28"
+      },
+      "languages": [
+        "Python",
+        "Shell",
+        "Java",
+        "HTML"
+      ]
+    },
+    {
+      "name": "datawave-tables",
+      "repositoryURL": "https://github.com/NationalSecurityAgency/datawave-tables",
+      "description": "",
+      "permissions": {
+        "licenses": null,
+        "usageType": "openSource"
+      },
+      "laborHours": 1,
+      "tags": [],
+      "contact": {
+        "email": "tech_transfer@nsa.gov",
+        "URL": "https://www.nsa.gov/Research/Technology-Transfer-Program/",
+        "name": "NSA Technology Transfer Program",
+        "phone": "1-866-680-4539"
+      },
+      "status": "Production",
+      "vcs": "git",
+      "homepageURL": "https://github.com/NationalSecurityAgency/datawave-tables",
+      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-tables/archive/main.zip",
+      "date": {
+        "created": "2023-11-02",
+        "metadataLastUpdated": "2025-02-10",
+        "lastModified": "2024-01-30"
+      },
+      "languages": [
+        "Java"
+      ]
+    },
+    {
+      "name": "rank-based-linkage",
+      "repositoryURL": "https://github.com/NationalSecurityAgency/rank-based-linkage",
+      "description": "",
+      "permissions": {
+        "licenses": [
+          {
+            "URL": "https://github.com/NationalSecurityAgency/rank-based-linkage/blob/main/LICENSE.txt",
+            "name": "Apache License 2.0"
+          }
+        ],
+        "usageType": "openSource"
+      },
+      "laborHours": 1,
+      "tags": [],
+      "contact": {
+        "email": "tech_transfer@nsa.gov",
+        "URL": "https://www.nsa.gov/Research/Technology-Transfer-Program/",
+        "name": "NSA Technology Transfer Program",
+        "phone": "1-866-680-4539"
+      },
+      "status": "Production",
+      "vcs": "git",
+      "homepageURL": "https://github.com/NationalSecurityAgency/rank-based-linkage",
+      "downloadURL": "https://github.com/NationalSecurityAgency/rank-based-linkage/archive/main.zip",
+      "date": {
+        "created": "2023-12-06",
+        "metadataLastUpdated": "2026-10-01",
+        "lastModified": "2024-01-20"
+      },
+      "languages": [
+        "Java"
+      ]
+    },
+    {
+      "name": "datawave-stack-docker-images",
+      "repositoryURL": "https://github.com/NationalSecurityAgency/datawave-stack-docker-images",
+      "description": "",
+      "permissions": {
+        "licenses": null,
+        "usageType": "openSource"
+      },
+      "laborHours": 1,
+      "tags": [
+        "hacktoberfest"
+      ],
+      "contact": {
+        "email": "tech_transfer@nsa.gov",
+        "URL": "https://www.nsa.gov/Research/Technology-Transfer-Program/",
+        "name": "NSA Technology Transfer Program",
+        "phone": "1-866-680-4539"
+      },
+      "status": "Production",
+      "vcs": "git",
+      "homepageURL": "https://github.com/NationalSecurityAgency/datawave-stack-docker-images",
+      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-stack-docker-images/archive/main.zip",
+      "date": {
+        "created": "2023-12-08",
+        "metadataLastUpdated": "2026-10-22",
+        "lastModified": "2026-11-04"
+      },
+      "languages": [
+        "Shell",
+        "Dockerfile"
+      ]
+    },
+    {
+      "name": "datawave-helm-charts",
+      "repositoryURL": "https://github.com/NationalSecurityAgency/datawave-helm-charts",
+      "description": "",
+      "permissions": {
+        "licenses": null,
+        "usageType": "openSource"
+      },
+      "laborHours": 1,
+      "tags": [
+        "hacktoberfest"
+      ],
+      "contact": {
+        "email": "tech_transfer@nsa.gov",
+        "URL": "https://www.nsa.gov/Research/Technology-Transfer-Program/",
+        "name": "NSA Technology Transfer Program",
+        "phone": "1-866-680-4539"
+      },
+      "status": "Production",
+      "vcs": "git",
+      "homepageURL": "https://github.com/NationalSecurityAgency/datawave-helm-charts",
+      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-helm-charts/archive/main.zip",
+      "date": {
+        "created": "2023-12-08",
+        "metadataLastUpdated": "2026-10-11",
+        "lastModified": "2026-11-10"
+      },
+      "languages": [
+        "Mustache",
+        "Python",
+        "Shell",
+        "CSS",
+        "PowerShell",
+        "Go Template"
+      ]
+    },
+    {
+      "name": "qgis-cotraveler-plugin",
+      "repositoryURL": "https://github.com/NationalSecurityAgency/qgis-cotraveler-plugin",
+      "description": "",
+      "permissions": {
+        "licenses": [
+          {
+            "URL": "https://github.com/NationalSecurityAgency/qgis-cotraveler-plugin/blob/main/LICENSE",
+            "name": "GNU General Public License v2.0"
+          }
+        ],
+        "usageType": "openSource"
+      },
+      "laborHours": 1,
+      "tags": [],
+      "contact": {
+        "email": "tech_transfer@nsa.gov",
+        "URL": "https://www.nsa.gov/Research/Technology-Transfer-Program/",
+        "name": "NSA Technology Transfer Program",
+        "phone": "1-866-680-4539"
+      },
+      "status": "Archival",
+      "vcs": "git",
+      "homepageURL": "https://github.com/NationalSecurityAgency/qgis-cotraveler-plugin",
+      "downloadURL": "https://github.com/NationalSecurityAgency/qgis-cotraveler-plugin/archive/main.zip",
+      "date": {
+        "created": "2023-12-22",
+        "metadataLastUpdated": "2026-03-11",
+        "lastModified": "2024-06-10"
+      },
+      "languages": [
+        "Python",
+        "HTML",
+        "Makefile"
+      ]
+    },
+    {
+      "name": "TraceAnalysis",
+      "repositoryURL": "https://github.com/NationalSecurityAgency/TraceAnalysis",
+      "description": "",
+      "permissions": {
+        "licenses": [
+          {
+            "URL": "https://github.com/NationalSecurityAgency/TraceAnalysis/blob/main/LICENSE-APACHE",
+            "name": "Apache License 2.0"
+          }
+        ],
+        "usageType": "openSource"
+      },
+      "laborHours": 1,
+      "tags": [],
+      "contact": {
+        "email": "tech_transfer@nsa.gov",
+        "URL": "https://www.nsa.gov/Research/Technology-Transfer-Program/",
+        "name": "NSA Technology Transfer Program",
+        "phone": "1-866-680-4539"
+      },
+      "status": "Production",
+      "vcs": "git",
+      "homepageURL": "https://github.com/NationalSecurityAgency/TraceAnalysis",
+      "downloadURL": "https://github.com/NationalSecurityAgency/TraceAnalysis/archive/main.zip",
+      "date": {
+        "created": "2024-04-19",
+        "metadataLastUpdated": "2026-10-30",
+        "lastModified": "2026-03-10"
+      },
+      "languages": [
+        "Rust",
+        "Java",
+        "Python",
+        "C++",
+        "Just",
+        "Dockerfile",
+        "C",
+        "HTML",
+        "Shell",
+        "Makefile",
+        "Batchfile",
+        "JavaScript",
+        "CSS"
+      ]
+    },
+    {
+      "name": "ghidra-frida",
+      "repositoryURL": "https://github.com/NationalSecurityAgency/ghidra-frida",
+      "description": "",
+      "permissions": {
+        "licenses": null,
+        "usageType": "openSource"
+      },
+      "laborHours": 1,
+      "tags": [
+        "ghidra",
+        "ghidra-extension"
+      ],
+      "contact": {
+        "email": "tech_transfer@nsa.gov",
+        "URL": "https://www.nsa.gov/Research/Technology-Transfer-Program/",
+        "name": "NSA Technology Transfer Program",
+        "phone": "1-866-680-4539"
+      },
+      "status": "Production",
+      "vcs": "git",
+      "homepageURL": "https://github.com/NationalSecurityAgency/ghidra-frida",
+      "downloadURL": "https://github.com/NationalSecurityAgency/ghidra-frida/archive/main.zip",
+      "date": {
+        "created": "2024-04-19",
+        "metadataLastUpdated": "2026-10-11",
+        "lastModified": "2026-01-15"
+      },
+      "languages": [
+        "Python",
+        "Shell"
+      ]
+    },
+    {
+      "name": "ghidra-volatility",
+      "repositoryURL": "https://github.com/NationalSecurityAgency/ghidra-volatility",
+      "description": "",
+      "permissions": {
+        "licenses": [
+          {
+            "URL": "https://github.com/NationalSecurityAgency/ghidra-volatility/blob/main/VOLATILITY_LICENSE.txt",
+            "name": "Other"
+          }
+        ],
+        "usageType": "openSource"
+      },
+      "laborHours": 1,
+      "tags": [
+        "ghidra",
+        "ghidra-extension"
+      ],
+      "contact": {
+        "email": "tech_transfer@nsa.gov",
+        "URL": "https://www.nsa.gov/Research/Technology-Transfer-Program/",
+        "name": "NSA Technology Transfer Program",
+        "phone": "1-866-680-4539"
+      },
+      "status": "Production",
+      "vcs": "git",
+      "homepageURL": "https://github.com/NationalSecurityAgency/ghidra-volatility",
+      "downloadURL": "https://github.com/NationalSecurityAgency/ghidra-volatility/archive/main.zip",
+      "date": {
+        "created": "2024-04-19",
+        "metadataLastUpdated": "2026-10-11",
+        "lastModified": "2026-01-15"
+      },
+      "languages": [
+        "Python",
+        "Shell",
+        "HTML"
+      ]
+    },
+    {
+      "name": "datawave-file-provider-service",
+      "repositoryURL": "https://github.com/NationalSecurityAgency/datawave-file-provider-service",
+      "description": "",
+      "permissions": {
+        "licenses": [
+          {
+            "URL": "https://github.com/NationalSecurityAgency/datawave-file-provider-service/blob/main/LICENSE",
+            "name": "Apache License 2.0"
+          }
+        ],
+        "usageType": "openSource"
+      },
+      "laborHours": 1,
+      "tags": [],
+      "contact": {
+        "email": "tech_transfer@nsa.gov",
+        "URL": "https://www.nsa.gov/Research/Technology-Transfer-Program/",
+        "name": "NSA Technology Transfer Program",
+        "phone": "1-866-680-4539"
+      },
+      "status": "Production",
+      "vcs": "git",
+      "homepageURL": "https://github.com/NationalSecurityAgency/datawave-file-provider-service",
+      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-file-provider-service/archive/main.zip",
+      "date": {
+        "created": "2024-08-07",
+        "metadataLastUpdated": "2026-10-11",
+        "lastModified": "2026-08-18"
+      },
+      "languages": [
+        "Java",
+        "Dockerfile"
+      ]
+    },
+    {
+      "name": "datawave-map-service",
+      "repositoryURL": "https://github.com/NationalSecurityAgency/datawave-map-service",
+      "description": "",
+      "permissions": {
+        "licenses": [
+          {
+            "URL": "https://github.com/NationalSecurityAgency/datawave-map-service/blob/main/LICENSE",
+            "name": "Apache License 2.0"
+          }
+        ],
+        "usageType": "openSource"
+      },
+      "laborHours": 1,
+      "tags": [],
+      "contact": {
+        "email": "tech_transfer@nsa.gov",
+        "URL": "https://www.nsa.gov/Research/Technology-Transfer-Program/",
+        "name": "NSA Technology Transfer Program",
+        "phone": "1-866-680-4539"
+      },
+      "status": "Production",
+      "vcs": "git",
+      "homepageURL": "https://github.com/NationalSecurityAgency/datawave-map-service",
+      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-map-service/archive/main.zip",
+      "date": {
+        "created": "2024-08-29",
+        "metadataLastUpdated": "2025-01-06",
+        "lastModified": "2024-10-21"
+      },
+      "languages": []
+    },
+    {
+      "name": "datawave-accumulo-plugins",
+      "repositoryURL": "https://github.com/NationalSecurityAgency/datawave-accumulo-plugins",
+      "description": "A reusable set of plugins implementing Accumulo's SPI for use with DataWave",
+      "permissions": {
+        "licenses": null,
+        "usageType": "openSource"
+      },
+      "laborHours": 1,
+      "tags": [],
+      "contact": {
+        "email": "tech_transfer@nsa.gov",
+        "URL": "https://www.nsa.gov/Research/Technology-Transfer-Program/",
+        "name": "NSA Technology Transfer Program",
+        "phone": "1-866-680-4539"
+      },
+      "status": "Production",
+      "vcs": "git",
+      "homepageURL": "https://github.com/NationalSecurityAgency/datawave-accumulo-plugins",
+      "downloadURL": "https://github.com/NationalSecurityAgency/datawave-accumulo-plugins/archive/main.zip",
+      "date": {
+        "created": "2024-10-15",
+        "metadataLastUpdated": "2026-10-11",
+        "lastModified": "2025-08-07"
+      },
+      "languages": [
+        "Java"
+      ]
+    },
+    {
+      "name": "SeaBee",
+      "repositoryURL": "https://github.com/NationalSecurityAgency/seabee",
+      "description": "Hardens eBPF tools against privileged attackers via policy-based access controls",
+      "permissions": {
+        "licenses": [
+          {
+            "URL": "https://github.com/NationalSecurityAgency/seabee/blob/main/LICENSE",
+            "name": "Other"
+          }
+        ],
+        "usageType": "openSource"
+      },
+      "laborHours": 1,
+      "tags": [
+        "bpf",
+        "ebpf",
+        "lsm",
+        "security"
+      ],
+      "contact": {
+        "email": "tech_transfer@nsa.gov",
+        "URL": "https://www.nsa.gov/Research/Technology-Transfer-Program/",
+        "name": "NSA Technology Transfer Program",
+        "phone": "1-866-680-4539"
+      },
+      "status": "Production",
+      "vcs": "git",
+      "homepageURL": "http://code.nsa.gov/seabee/",
       "downloadURL": "https://github.com/NationalSecurityAgency/seabee/archive/main.zip",
       "date": {
-        "created": "2025-06-25",
-        "metadataLastUpdated": "2025-06-25",
-        "lastModified": "2025-06-25"
+        "created": "2025-06-03",
+        "metadataLastUpdated": "2026-11-01",
+        "lastModified": "2026-09-30"
       },
       "languages": [
         "Rust",
@@ -2247,6 +3199,155 @@
         "Shell",
         "Makefile",
         "Dockerfile"
+      ]
+    },
+    {
+      "name": "ghidra-lisa",
+      "repositoryURL": "https://github.com/NationalSecurityAgency/ghidra-lisa",
+      "description": "",
+      "permissions": {
+        "licenses": null,
+        "usageType": "openSource"
+      },
+      "laborHours": 1,
+      "tags": [
+        "ghidra",
+        "ghidra-extension"
+      ],
+      "contact": {
+        "email": "tech_transfer@nsa.gov",
+        "URL": "https://www.nsa.gov/Research/Technology-Transfer-Program/",
+        "name": "NSA Technology Transfer Program",
+        "phone": "1-866-680-4539"
+      },
+      "status": "Production",
+      "vcs": "git",
+      "homepageURL": "https://github.com/NationalSecurityAgency/ghidra-lisa",
+      "downloadURL": "https://github.com/NationalSecurityAgency/ghidra-lisa/archive/main.zip",
+      "date": {
+        "created": "2025-12-10",
+        "metadataLastUpdated": "2026-11-03",
+        "lastModified": "2025-12-11"
+      },
+      "languages": [
+        "Java",
+        "HTML"
+      ]
+    },
+    {
+      "name": "openflame",
+      "repositoryURL": "https://github.com/NationalSecurityAgency/openflame",
+      "description": "",
+      "permissions": {
+        "licenses": [
+          {
+            "URL": "https://github.com/NationalSecurityAgency/openflame/blob/main/LICENSE",
+            "name": "BSD 3-Clause \"New\" or \"Revised\" License"
+          }
+        ],
+        "usageType": "openSource"
+      },
+      "laborHours": 1,
+      "tags": [],
+      "contact": {
+        "email": "tech_transfer@nsa.gov",
+        "URL": "https://www.nsa.gov/Research/Technology-Transfer-Program/",
+        "name": "NSA Technology Transfer Program",
+        "phone": "1-866-680-4539"
+      },
+      "status": "Production",
+      "vcs": "git",
+      "homepageURL": "https://github.com/NationalSecurityAgency/openflame",
+      "downloadURL": "https://github.com/NationalSecurityAgency/openflame/archive/main.zip",
+      "date": {
+        "created": "2026-06-11",
+        "metadataLastUpdated": "2026-10-22",
+        "lastModified": "2026-07-08"
+      },
+      "languages": [
+        "C",
+        "CMake",
+        "Perl",
+        "M4",
+        "C++",
+        "Python",
+        "Shell",
+        "Makefile",
+        "Awk",
+        "TeX"
+      ]
+    },
+    {
+      "name": "Foundation",
+      "repositoryURL": "https://github.com/NationalSecurityAgency/Foundation",
+      "description": "Foundation is a repository of formal cryptographic specifications",
+      "permissions": {
+        "licenses": [
+          {
+            "URL": "https://github.com/NationalSecurityAgency/Foundation/blob/main/LICENSE",
+            "name": "Apache License 2.0"
+          }
+        ],
+        "usageType": "openSource"
+      },
+      "laborHours": 1,
+      "tags": [
+        "automated-reasoning",
+        "cryptol",
+        "cryptology",
+        "formal-languages",
+        "formal-methods",
+        "formal-verification",
+        "satisfiability"
+      ],
+      "contact": {
+        "email": "tech_transfer@nsa.gov",
+        "URL": "https://www.nsa.gov/Research/Technology-Transfer-Program/",
+        "name": "NSA Technology Transfer Program",
+        "phone": "1-866-680-4539"
+      },
+      "status": "Production",
+      "vcs": "git",
+      "homepageURL": "https://github.com/NationalSecurityAgency/Foundation",
+      "downloadURL": "https://github.com/NationalSecurityAgency/Foundation/archive/main.zip",
+      "date": {
+        "created": "2026-07-15",
+        "metadataLastUpdated": "2026-11-12",
+        "lastModified": "2026-11-11"
+      },
+      "languages": [
+        "Rust",
+        "Python",
+        "Shell"
+      ]
+    },
+    {
+      "name": "dnf-model-counting",
+      "repositoryURL": "https://github.com/NationalSecurityAgency/dnf-model-counting",
+      "description": "",
+      "permissions": {
+        "licenses": null,
+        "usageType": "openSource"
+      },
+      "laborHours": 1,
+      "tags": [],
+      "contact": {
+        "email": "tech_transfer@nsa.gov",
+        "URL": "https://www.nsa.gov/Research/Technology-Transfer-Program/",
+        "name": "NSA Technology Transfer Program",
+        "phone": "1-866-680-4539"
+      },
+      "status": "Production",
+      "vcs": "git",
+      "homepageURL": "https://github.com/NationalSecurityAgency/dnf-model-counting",
+      "downloadURL": "https://github.com/NationalSecurityAgency/dnf-model-counting/archive/main.zip",
+      "date": {
+        "created": "2026-09-08",
+        "metadataLastUpdated": "2026-10-11",
+        "lastModified": "2026-09-15"
+      },
+      "languages": [
+        "C++"
       ]
     },
     {
@@ -2274,13 +3375,13 @@
         "name": "NSA Cybersecurity",
         "phone": "410-854-4200"
       },
-      "status": "Production",
+      "status": "Archival",
       "vcs": "git",
       "homepageURL": "https://github.com/nsacyber/Pass-the-Hash-Guidance",
       "downloadURL": "https://github.com/nsacyber/Pass-the-Hash-Guidance/archive/master.zip",
       "date": {
         "created": "2014-12-29",
-        "metadataLastUpdated": "2021-09-29",
+        "metadataLastUpdated": "2026-08-12",
         "lastModified": "2016-11-25"
       },
       "languages": [
@@ -2318,7 +3419,7 @@
       "downloadURL": "https://github.com/nsacyber/Event-Forwarding-Guidance/archive/master.zip",
       "date": {
         "created": "2015-01-09",
-        "metadataLastUpdated": "2021-10-16",
+        "metadataLastUpdated": "2026-11-14",
         "lastModified": "2020-11-17"
       },
       "languages": [
@@ -2358,12 +3459,12 @@
       "downloadURL": "https://github.com/nsacyber/AppLocker-Guidance/archive/master.zip",
       "date": {
         "created": "2015-05-01",
-        "metadataLastUpdated": "2021-07-17",
-        "lastModified": "2019-12-17"
+        "metadataLastUpdated": "2026-11-02",
+        "lastModified": "2025-10-31"
       },
       "languages": [
-        "Batchfile",
-        "PowerShell"
+        "PowerShell",
+        "Batchfile"
       ]
     },
     {
@@ -2391,13 +3492,13 @@
         "name": "NSA Cybersecurity",
         "phone": "410-854-4200"
       },
-      "status": "Production",
+      "status": "Archival",
       "vcs": "git",
       "homepageURL": "https://github.com/nsacyber/Control-Flow-Integrity",
       "downloadURL": "https://github.com/nsacyber/Control-Flow-Integrity/archive/master.zip",
       "date": {
         "created": "2015-07-23",
-        "metadataLastUpdated": "2021-10-19",
+        "metadataLastUpdated": "2026-10-18",
         "lastModified": "2017-05-10"
       },
       "languages": [
@@ -2432,23 +3533,23 @@
         "name": "NSA Cybersecurity",
         "phone": "410-854-4200"
       },
-      "status": "Production",
+      "status": "Archival",
       "vcs": "git",
       "homepageURL": "https://github.com/nsacyber/Maplesyrup",
       "downloadURL": "https://github.com/nsacyber/Maplesyrup/archive/master.zip",
       "date": {
         "created": "2015-07-24",
-        "metadataLastUpdated": "2021-08-26",
+        "metadataLastUpdated": "2026-11-08",
         "lastModified": "2016-06-01"
       },
       "languages": [
+        "C",
         "Makefile",
         "Assembly",
         "Objective-C",
         "M4",
         "Python",
-        "Shell",
-        "C"
+        "Shell"
       ]
     },
     {
@@ -2484,13 +3585,13 @@
         "name": "NSA Cybersecurity",
         "phone": "410-854-4200"
       },
-      "status": "Production",
+      "status": "Archival",
       "vcs": "git",
       "homepageURL": "https://github.com/nsacyber/GRASSMARLIN",
       "downloadURL": "https://github.com/nsacyber/GRASSMARLIN/archive/master.zip",
       "date": {
         "created": "2015-12-14",
-        "metadataLastUpdated": "2021-10-20",
+        "metadataLastUpdated": "2026-11-14",
         "lastModified": "2020-02-24"
       },
       "languages": [
@@ -2537,14 +3638,14 @@
         "name": "NSA Cybersecurity",
         "phone": "410-854-4200"
       },
-      "status": "Production",
+      "status": "Archival",
       "vcs": "git",
       "homepageURL": "https://github.com/nsacyber/Windows-Secure-Host-Baseline",
       "downloadURL": "https://github.com/nsacyber/Windows-Secure-Host-Baseline/archive/master.zip",
       "date": {
         "created": "2016-02-26",
-        "metadataLastUpdated": "2021-10-18",
-        "lastModified": "2018-09-12"
+        "metadataLastUpdated": "2026-11-06",
+        "lastModified": "2022-12-24"
       },
       "languages": [
         "HTML",
@@ -2577,21 +3678,21 @@
         "name": "NSA Cybersecurity",
         "phone": "410-854-4200"
       },
-      "status": "Production",
+      "status": "Archival",
       "vcs": "git",
       "homepageURL": "https://nsacyber.github.io/goSecure/",
       "downloadURL": "https://github.com/nsacyber/goSecure/archive/master.zip",
       "date": {
         "created": "2016-04-28",
-        "metadataLastUpdated": "2021-10-08",
+        "metadataLastUpdated": "2026-11-17",
         "lastModified": "2017-06-27"
       },
       "languages": [
+        "Python",
         "HTML",
         "CSS",
         "JavaScript",
-        "OpenEdge ABL",
-        "Python"
+        "OpenEdge ABL"
       ]
     },
     {
@@ -2620,26 +3721,26 @@
         "name": "NSA Cybersecurity",
         "phone": "410-854-4200"
       },
-      "status": "Production",
+      "status": "Archival",
       "vcs": "git",
       "homepageURL": "https://github.com/nsacyber/LOCKLEVEL",
       "downloadURL": "https://github.com/nsacyber/LOCKLEVEL/archive/master.zip",
       "date": {
         "created": "2016-05-19",
-        "metadataLastUpdated": "2021-09-15",
+        "metadataLastUpdated": "2026-10-01",
         "lastModified": "2016-06-08"
       },
       "languages": [
         "JavaScript",
         "PowerShell",
-        "CSS",
-        "CMake",
-        "C",
         "Python",
         "C++",
         "HTML",
+        "CSS",
         "Objective-C",
-        "Batchfile"
+        "CMake",
+        "Batchfile",
+        "C"
       ]
     },
     {
@@ -2671,13 +3772,13 @@
         "name": "NSA Cybersecurity",
         "phone": "410-854-4200"
       },
-      "status": "Production",
+      "status": "Archival",
       "vcs": "git",
       "homepageURL": "https://github.com/nsacyber/Splunk-Assessment-of-Mitigation-Implementations",
       "downloadURL": "https://github.com/nsacyber/Splunk-Assessment-of-Mitigation-Implementations/archive/master.zip",
       "date": {
         "created": "2016-05-19",
-        "metadataLastUpdated": "2021-09-29",
+        "metadataLastUpdated": "2026-10-18",
         "lastModified": "2016-05-25"
       },
       "languages": [
@@ -2715,13 +3816,13 @@
         "name": "NSA Cybersecurity",
         "phone": "410-854-4200"
       },
-      "status": "Production",
+      "status": "Archival",
       "vcs": "git",
       "homepageURL": "https://github.com/nsacyber/Certificate-Authority-Situational-Awareness",
       "downloadURL": "https://github.com/nsacyber/Certificate-Authority-Situational-Awareness/archive/master.zip",
       "date": {
         "created": "2016-05-23",
-        "metadataLastUpdated": "2021-10-11",
+        "metadataLastUpdated": "2026-10-18",
         "lastModified": "2016-06-02"
       },
       "languages": [
@@ -2770,24 +3871,24 @@
         "name": "NSA Cybersecurity",
         "phone": "410-854-4200"
       },
-      "status": "Production",
+      "status": "Archival",
       "vcs": "git",
       "homepageURL": "https://nsacyber.github.io/WALKOFF/",
       "downloadURL": "https://github.com/nsacyber/WALKOFF/archive/master.zip",
       "date": {
         "created": "2016-06-08",
-        "metadataLastUpdated": "2021-10-20",
-        "lastModified": "2021-09-29"
+        "metadataLastUpdated": "2026-10-18",
+        "lastModified": "2022-12-12"
       },
       "languages": [
-        "Dockerfile",
-        "Shell",
-        "JavaScript",
         "Python",
         "TypeScript",
         "PowerShell",
         "HTML",
-        "SCSS"
+        "SCSS",
+        "Dockerfile",
+        "Shell",
+        "JavaScript"
       ]
     },
     {
@@ -2820,13 +3921,13 @@
         "name": "NSA Cybersecurity",
         "phone": "410-854-4200"
       },
-      "status": "Production",
+      "status": "Archival",
       "vcs": "git",
       "homepageURL": "https://nsacyber.github.io/simon-speck/",
       "downloadURL": "https://github.com/nsacyber/simon-speck/archive/master.zip",
       "date": {
         "created": "2016-07-01",
-        "metadataLastUpdated": "2021-09-29",
+        "metadataLastUpdated": "2026-11-16",
         "lastModified": "2019-11-12"
       },
       "languages": []
@@ -2862,37 +3963,37 @@
         "name": "NSA Cybersecurity",
         "phone": "410-854-4200"
       },
-      "status": "Production",
+      "status": "Archival",
       "vcs": "git",
       "homepageURL": "https://nsacyber.github.io/simon-speck",
       "downloadURL": "https://github.com/nsacyber/simon-speck-supercop/archive/master.zip",
       "date": {
         "created": "2016-07-01",
-        "metadataLastUpdated": "2021-07-22",
+        "metadataLastUpdated": "2026-11-15",
         "lastModified": "2018-06-13"
       },
       "languages": [
-        "q",
-        "Makefile",
-        "Perl",
-        "Emacs Lisp",
-        "PHP",
-        "GDB",
-        "Lex",
+        "C",
+        "Assembly",
         "C++",
         "Objective-C",
+        "q",
+        "Makefile",
         "Shell",
+        "M4",
+        "TeX",
         "HiveQL",
+        "Perl",
         "HTML",
         "XS",
         "Python",
-        "M4",
-        "TeX",
         "Perl 6",
+        "Emacs Lisp",
         "Yacc",
+        "PHP",
+        "Lex",
         "Fortran",
-        "C",
-        "Assembly"
+        "GDB"
       ]
     },
     {
@@ -2919,14 +4020,14 @@
         "name": "NSA Cybersecurity",
         "phone": "410-854-4200"
       },
-      "status": "Production",
+      "status": "Archival",
       "vcs": "git",
       "homepageURL": "https://github.com/nsacyber/Windows-Event-Log-Messages",
       "downloadURL": "https://github.com/nsacyber/Windows-Event-Log-Messages/archive/master.zip",
       "date": {
         "created": "2016-07-19",
-        "metadataLastUpdated": "2021-09-26",
-        "lastModified": "2019-03-07"
+        "metadataLastUpdated": "2026-10-25",
+        "lastModified": "2022-12-08"
       },
       "languages": [
         "C#",
@@ -2957,13 +4058,13 @@
         "name": "NSA Cybersecurity",
         "phone": "410-854-4200"
       },
-      "status": "Production",
+      "status": "Archival",
       "vcs": "git",
       "homepageURL": "http://unfetter.io/",
       "downloadURL": "https://github.com/nsacyber/unfetter/archive/master.zip",
       "date": {
         "created": "2016-09-12",
-        "metadataLastUpdated": "2021-10-03",
+        "metadataLastUpdated": "2026-10-18",
         "lastModified": "2020-05-11"
       },
       "languages": []
@@ -2996,13 +4097,13 @@
         "name": "NSA Cybersecurity",
         "phone": "410-854-4200"
       },
-      "status": "Production",
+      "status": "Archival",
       "vcs": "git",
       "homepageURL": "https://github.com/nsacyber/netman",
       "downloadURL": "https://github.com/nsacyber/netman/archive/master.zip",
       "date": {
         "created": "2016-11-18",
-        "metadataLastUpdated": "2021-09-29",
+        "metadataLastUpdated": "2026-10-18",
         "lastModified": "2016-11-29"
       },
       "languages": [
@@ -3038,13 +4139,13 @@
         "name": "NSA Cybersecurity",
         "phone": "410-854-4200"
       },
-      "status": "Production",
+      "status": "Archival",
       "vcs": "git",
       "homepageURL": "https://github.com/nsacyber/netfil",
       "downloadURL": "https://github.com/nsacyber/netfil/archive/master.zip",
       "date": {
         "created": "2017-02-23",
-        "metadataLastUpdated": "2021-07-17",
+        "metadataLastUpdated": "2026-10-18",
         "lastModified": "2017-03-16"
       },
       "languages": [
@@ -3062,7 +4163,7 @@
         "licenses": [
           {
             "URL": "https://github.com/nsacyber/nsacyber.github.io/blob/master/LICENSE.md",
-            "name": "Other"
+            "name": "Creative Commons Zero v1.0 Universal"
           }
         ],
         "usageType": "openSource"
@@ -3083,8 +4184,8 @@
       "downloadURL": "https://github.com/nsacyber/nsacyber.github.io/archive/master.zip",
       "date": {
         "created": "2017-05-12",
-        "metadataLastUpdated": "2021-10-19",
-        "lastModified": "2021-03-16"
+        "metadataLastUpdated": "2026-11-15",
+        "lastModified": "2024-08-17"
       },
       "languages": [
         "PowerShell"
@@ -3098,7 +4199,7 @@
         "licenses": [
           {
             "URL": "https://github.com/nsacyber/WALKOFF-Apps/blob/master/LICENSE.md",
-            "name": "Other"
+            "name": "Creative Commons Zero v1.0 Universal"
           }
         ],
         "usageType": "openSource"
@@ -3125,24 +4226,24 @@
         "name": "NSA Cybersecurity",
         "phone": "410-854-4200"
       },
-      "status": "Production",
+      "status": "Archival",
       "vcs": "git",
       "homepageURL": "https://nsacyber.github.io/WALKOFF",
       "downloadURL": "https://github.com/nsacyber/WALKOFF-Apps/archive/master.zip",
       "date": {
         "created": "2017-05-16",
-        "metadataLastUpdated": "2021-09-06",
+        "metadataLastUpdated": "2026-10-18",
         "lastModified": "2019-03-14"
       },
       "languages": [
-        "Makefile",
-        "PowerShell",
         "YARA",
         "Python",
         "JavaScript",
         "HTML",
         "Shell",
-        "CSS"
+        "CSS",
+        "Makefile",
+        "PowerShell"
       ]
     },
     {
@@ -3171,13 +4272,13 @@
         "name": "NSA Cybersecurity",
         "phone": "410-854-4200"
       },
-      "status": "Production",
+      "status": "Archival",
       "vcs": "git",
       "homepageURL": "https://github.com/nsacyber/AtomicWatch",
       "downloadURL": "https://github.com/nsacyber/AtomicWatch/archive/master.zip",
       "date": {
         "created": "2017-06-08",
-        "metadataLastUpdated": "2021-06-07",
+        "metadataLastUpdated": "2026-10-18",
         "lastModified": "2017-06-10"
       },
       "languages": [
@@ -3213,13 +4314,13 @@
         "name": "NSA Cybersecurity",
         "phone": "410-854-4200"
       },
-      "status": "Production",
+      "status": "Archival",
       "vcs": "git",
       "homepageURL": "https://github.com/nsacyber/serial2pcap",
       "downloadURL": "https://github.com/nsacyber/serial2pcap/archive/master.zip",
       "date": {
         "created": "2017-10-02",
-        "metadataLastUpdated": "2021-08-14",
+        "metadataLastUpdated": "2025-11-24",
         "lastModified": "2017-10-25"
       },
       "languages": [
@@ -3250,13 +4351,13 @@
         "name": "NSA Cybersecurity",
         "phone": "410-854-4200"
       },
-      "status": "Production",
+      "status": "Archival",
       "vcs": "git",
       "homepageURL": "https://github.com/nsacyber/Driver-Collider",
       "downloadURL": "https://github.com/nsacyber/Driver-Collider/archive/master.zip",
       "date": {
         "created": "2017-10-17",
-        "metadataLastUpdated": "2021-08-19",
+        "metadataLastUpdated": "2026-02-17",
         "lastModified": "2017-12-18"
       },
       "languages": [
@@ -3296,13 +4397,13 @@
         "name": "NSA Cybersecurity",
         "phone": "410-854-4200"
       },
-      "status": "Production",
+      "status": "Archival",
       "vcs": "git",
       "homepageURL": "https://github.com/nsacyber/HTTP-Connectivity-Tester",
       "downloadURL": "https://github.com/nsacyber/HTTP-Connectivity-Tester/archive/master.zip",
       "date": {
         "created": "2017-10-17",
-        "metadataLastUpdated": "2021-10-07",
+        "metadataLastUpdated": "2026-04-13",
         "lastModified": "2021-02-19"
       },
       "languages": [
@@ -3335,13 +4436,13 @@
         "name": "NSA Cybersecurity",
         "phone": "410-854-4200"
       },
-      "status": "Production",
+      "status": "Archival",
       "vcs": "git",
       "homepageURL": "https://github.com/nsacyber/CodeGov",
       "downloadURL": "https://github.com/nsacyber/CodeGov/archive/master.zip",
       "date": {
         "created": "2017-10-17",
-        "metadataLastUpdated": "2021-06-19",
+        "metadataLastUpdated": "2026-09-17",
         "lastModified": "2019-01-16"
       },
       "languages": [
@@ -3377,13 +4478,13 @@
         "name": "NSA Cybersecurity",
         "phone": "410-854-4200"
       },
-      "status": "Production",
+      "status": "Archival",
       "vcs": "git",
       "homepageURL": "https://github.com/nsacyber/Detect-CVE-2017-15361-TPM",
       "downloadURL": "https://github.com/nsacyber/Detect-CVE-2017-15361-TPM/archive/master.zip",
       "date": {
         "created": "2017-10-19",
-        "metadataLastUpdated": "2021-06-07",
+        "metadataLastUpdated": "2026-09-25",
         "lastModified": "2018-09-04"
       },
       "languages": [
@@ -3433,11 +4534,13 @@
       "downloadURL": "https://github.com/nsacyber/Hardware-and-Firmware-Security-Guidance/archive/master.zip",
       "date": {
         "created": "2018-01-10",
-        "metadataLastUpdated": "2021-10-16",
-        "lastModified": "2021-07-19"
+        "metadataLastUpdated": "2026-11-16",
+        "lastModified": "2024-12-23"
       },
       "languages": [
-        "C"
+        "C",
+        "PowerShell",
+        "Python"
       ]
     },
     {
@@ -3447,7 +4550,7 @@
       "permissions": {
         "licenses": [
           {
-            "URL": "https://github.com/nsacyber/HIRS/blob/master/LICENSE.md",
+            "URL": "https://github.com/nsacyber/HIRS/blob/main/LICENSE.md",
             "name": "Other"
           }
         ],
@@ -3471,23 +4574,20 @@
       "status": "Production",
       "vcs": "git",
       "homepageURL": "https://github.com/nsacyber/HIRS",
-      "downloadURL": "https://github.com/nsacyber/HIRS/archive/master.zip",
+      "downloadURL": "https://github.com/nsacyber/HIRS/archive/main.zip",
       "date": {
         "created": "2018-01-19",
-        "metadataLastUpdated": "2021-10-19",
-        "lastModified": "2021-10-19"
+        "metadataLastUpdated": "2026-11-11",
+        "lastModified": "2026-11-17"
       },
       "languages": [
-        "Java",
         "JavaScript",
-        "C++",
+        "Java",
+        "HTML",
+        "C#",
         "Shell",
-        "Python",
-        "Makefile",
+        "PowerShell",
         "CSS",
-        "CMake",
-        "SCSS",
-        "Roff",
         "XSLT"
       ]
     },
@@ -3522,13 +4622,13 @@
         "name": "NSA Cybersecurity",
         "phone": "410-854-4200"
       },
-      "status": "Production",
+      "status": "Archival",
       "vcs": "git",
       "homepageURL": "https://github.com/nsacyber/BitLocker-Guidance",
       "downloadURL": "https://github.com/nsacyber/BitLocker-Guidance/archive/master.zip",
       "date": {
         "created": "2018-02-12",
-        "metadataLastUpdated": "2021-10-16",
+        "metadataLastUpdated": "2026-10-18",
         "lastModified": "2019-07-24"
       },
       "languages": [
@@ -3539,11 +4639,11 @@
     {
       "name": "paccor",
       "repositoryURL": "https://github.com/nsacyber/paccor",
-      "description": "The Platform Attribute Certificate Creator can gather component details, create, sign, and validate the TCG-defined Platform Credential. #nsacyber",
+      "description": "The Platform Attribute Certificate Creator can gather component details, create, sign, and validate the TCG-defined Platform Certificate. #nsacyber",
       "permissions": {
         "licenses": [
           {
-            "URL": "https://github.com/nsacyber/paccor/blob/master/LICENSE.md",
+            "URL": "https://github.com/nsacyber/paccor/blob/main/LICENSE.md",
             "name": "Apache License 2.0"
           }
         ],
@@ -3565,54 +4665,17 @@
       "status": "Production",
       "vcs": "git",
       "homepageURL": "https://github.com/nsacyber/HIRS",
-      "downloadURL": "https://github.com/nsacyber/paccor/archive/master.zip",
+      "downloadURL": "https://github.com/nsacyber/paccor/archive/main.zip",
       "date": {
         "created": "2018-09-28",
-        "metadataLastUpdated": "2021-09-20",
-        "lastModified": "2021-06-16"
+        "metadataLastUpdated": "2026-11-10",
+        "lastModified": "2026-11-12"
       },
       "languages": [
         "Java",
-        "Shell",
-        "PowerShell"
-      ]
-    },
-    {
-      "name": "Cyber-Challenge",
-      "repositoryURL": "https://github.com/nsacyber/Cyber-Challenge",
-      "description": "Supporting files for cyber challenge exercises. #nsacyber",
-      "permissions": {
-        "licenses": [
-          {
-            "URL": "https://github.com/nsacyber/Cyber-Challenge/blob/master/LICENSE.md",
-            "name": "Other"
-          }
-        ],
-        "usageType": "openSource"
-      },
-      "laborHours": 1,
-      "tags": [
-        "challenge",
-        "cyber",
-        "cybersecurity"
-      ],
-      "contact": {
-        "email": "cybersecurity_requests@nsa.gov",
-        "URL": "https://www.nsa.gov/about/contact-us/",
-        "name": "NSA Cybersecurity",
-        "phone": "410-854-4200"
-      },
-      "status": "Production",
-      "vcs": "git",
-      "homepageURL": "https://github.com/nsacyber/Cyber-Challenge",
-      "downloadURL": "https://github.com/nsacyber/Cyber-Challenge/archive/master.zip",
-      "date": {
-        "created": "2018-10-05",
-        "metadataLastUpdated": "2021-09-01",
-        "lastModified": "2018-10-05"
-      },
-      "languages": [
-        "Jupyter Notebook"
+        "C#",
+        "PowerShell",
+        "Shell"
       ]
     },
     {
@@ -3646,8 +4709,8 @@
       "downloadURL": "https://github.com/nsacyber/BAM/archive/master.zip",
       "date": {
         "created": "2018-10-26",
-        "metadataLastUpdated": "2021-10-09",
-        "lastModified": "2021-07-08"
+        "metadataLastUpdated": "2026-10-18",
+        "lastModified": "2024-05-02"
       },
       "languages": [
         "Python",
@@ -3680,14 +4743,14 @@
         "name": "NSA Cybersecurity",
         "phone": "410-854-4200"
       },
-      "status": "Production",
+      "status": "Archival",
       "vcs": "git",
       "homepageURL": "https://github.com/nsacyber/Blocking-Outdated-Web-Technologies",
       "downloadURL": "https://github.com/nsacyber/Blocking-Outdated-Web-Technologies/archive/master.zip",
       "date": {
         "created": "2019-03-05",
-        "metadataLastUpdated": "2021-09-23",
-        "lastModified": "2019-10-30"
+        "metadataLastUpdated": "2026-10-18",
+        "lastModified": "2021-12-09"
       },
       "languages": [
         "PowerShell"
@@ -3723,8 +4786,8 @@
       "downloadURL": "https://github.com/nsacyber/RandPassGenerator/archive/master.zip",
       "date": {
         "created": "2019-05-10",
-        "metadataLastUpdated": "2021-09-16",
-        "lastModified": "2019-06-05"
+        "metadataLastUpdated": "2026-11-16",
+        "lastModified": "2023-12-22"
       },
       "languages": [
         "Java"
@@ -3757,20 +4820,20 @@
         "name": "NSA Cybersecurity",
         "phone": "410-854-4200"
       },
-      "status": "Production",
+      "status": "Archival",
       "vcs": "git",
       "homepageURL": "https://github.com/nsacyber/PRUNE",
       "downloadURL": "https://github.com/nsacyber/PRUNE/archive/master.zip",
       "date": {
         "created": "2019-05-16",
-        "metadataLastUpdated": "2021-10-16",
-        "lastModified": "2021-05-03"
+        "metadataLastUpdated": "2026-11-11",
+        "lastModified": "2022-12-08"
       },
       "languages": [
-        "PowerShell",
         "C#",
         "C",
-        "Roff"
+        "Roff",
+        "PowerShell"
       ]
     },
     {
@@ -3805,8 +4868,8 @@
       "downloadURL": "https://github.com/nsacyber/Mitigating-Web-Shells/archive/master.zip",
       "date": {
         "created": "2020-02-15",
-        "metadataLastUpdated": "2021-10-19",
-        "lastModified": "2021-07-07"
+        "metadataLastUpdated": "2026-11-17",
+        "lastModified": "2023-06-18"
       },
       "languages": [
         "YARA",
@@ -3841,13 +4904,13 @@
         "name": "NSA Cybersecurity",
         "phone": "410-854-4200"
       },
-      "status": "Production",
+      "status": "Archival",
       "vcs": "git",
       "homepageURL": "https://github.com/nsacyber/Mitigating-Obsolete-TLS",
       "downloadURL": "https://github.com/nsacyber/Mitigating-Obsolete-TLS/archive/master.zip",
       "date": {
         "created": "2020-11-17",
-        "metadataLastUpdated": "2021-10-13",
+        "metadataLastUpdated": "2026-10-18",
         "lastModified": "2021-02-03"
       },
       "languages": [
@@ -3881,16 +4944,92 @@
         "name": "NSA Cybersecurity",
         "phone": "410-854-4200"
       },
-      "status": "Production",
+      "status": "Archival",
       "vcs": "git",
       "homepageURL": "https://github.com/nsacyber/Chinese-State-Sponsored-Cyber-Operations-Observed-TTPs",
       "downloadURL": "https://github.com/nsacyber/Chinese-State-Sponsored-Cyber-Operations-Observed-TTPs/archive/master.zip",
       "date": {
         "created": "2021-07-14",
-        "metadataLastUpdated": "2021-10-06",
+        "metadataLastUpdated": "2026-10-18",
         "lastModified": "2021-07-19"
       },
       "languages": []
+    },
+    {
+      "name": "ELITEWOLF",
+      "repositoryURL": "https://github.com/nsacyber/ELITEWOLF",
+      "description": "OT security monitoring #nsacyber",
+      "permissions": {
+        "licenses": [
+          {
+            "URL": "https://github.com/nsacyber/ELITEWOLF/blob/master/LICENSE.md",
+            "name": "Other"
+          }
+        ],
+        "usageType": "openSource"
+      },
+      "laborHours": 1,
+      "tags": [],
+      "contact": {
+        "email": "cybersecurity_requests@nsa.gov",
+        "URL": "https://www.nsa.gov/about/contact-us/",
+        "name": "NSA Cybersecurity",
+        "phone": "410-854-4200"
+      },
+      "status": "Production",
+      "vcs": "git",
+      "homepageURL": "https://github.com/nsacyber/ELITEWOLF",
+      "downloadURL": "https://github.com/nsacyber/ELITEWOLF/archive/master.zip",
+      "date": {
+        "created": "2023-07-28",
+        "metadataLastUpdated": "2026-11-14",
+        "lastModified": "2024-01-07"
+      },
+      "languages": []
+    },
+    {
+      "name": "RIM-Tool",
+      "repositoryURL": "https://github.com/nsacyber/RIM-Tool",
+      "description": "A tool to create TCG Reference Integrity Manifest (RIM) files for use with attestation verifiers like HIRS.",
+      "permissions": {
+        "licenses": [
+          {
+            "URL": "https://github.com/nsacyber/RIM-Tool/blob/main/LICENSE.md",
+            "name": "Other"
+          }
+        ],
+        "usageType": "openSource"
+      },
+      "laborHours": 1,
+      "tags": [
+        "firmware",
+        "integrity-tool",
+        "signature-verification",
+        "spdm",
+        "supply-chain",
+        "trusted-computing",
+        "trusted-platform-module",
+        "uefi"
+      ],
+      "contact": {
+        "email": "cybersecurity_requests@nsa.gov",
+        "URL": "https://www.nsa.gov/about/contact-us/",
+        "name": "NSA Cybersecurity",
+        "phone": "410-854-4200"
+      },
+      "status": "Production",
+      "vcs": "git",
+      "homepageURL": "https://github.com/nsacyber/RIM-Tool",
+      "downloadURL": "https://github.com/nsacyber/RIM-Tool/archive/main.zip",
+      "date": {
+        "created": "2025-07-17",
+        "metadataLastUpdated": "2026-11-04",
+        "lastModified": "2026-11-17"
+      },
+      "languages": [
+        "Java",
+        "Shell"
+      ]
     }
   ]
 }
